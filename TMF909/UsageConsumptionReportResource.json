@@ -1,0 +1,269 @@
+{
+    "id": "ucr0001",
+    "href": "https://serverRoot/tmf-api/usageConsumption/usageConsumptionReport/ucr0001",
+    "name": "Usage consumption report ucr0001",
+    "description": "Usage consumption Report for Kate smartphone",
+    "effectiveDate": "2018-03-15T:15:44:28",
+    "bucket": [
+        {
+            "id": "bkt001",
+            "name": "Main offer - data",
+            "usageType": "data",
+            "isShared": false,
+            "product": [
+                {
+                    "id": "product1",
+                    "name": "Kate smartphone",
+                    "publicIdentifier": "33601010101",
+                    "user": [
+                        {
+                            "id": "usr1",
+                            "name": "Kate",
+                            "role": "user",
+                            "@referredType": "individual"
+                        }
+                    ],
+                    "outOfBucketCounter": [
+                        {
+                            "counterType": "outOfBucket",
+                            "level": "global",
+                            "value": {
+                                "amount": 20.0,
+                                "units": "USD"
+                            },
+                            "valueName": "20 USD",
+                            "consumptionPeriod": {
+                                "startDateTime": "2018-03-01T:00:00:00",
+                                "endDateTime": "2018-03-15T:00:00:00"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "bucketBalance": [
+                {
+                    "remainingValue": {
+                        "amount": 1.8,
+                        "units": "Go"
+                    },
+                    "remainingValueName": "it remains 1.8 Go",
+                    "validFor": {
+                        "startDateTime": "2018-03-15T:00:00:00",
+                        "endDateTime": "2018-03-30T:00:00:00"
+                    }
+                }
+            ],
+            "bucketCounter": [
+                {
+                    "counterType": "used",
+                    "level": "global",
+                    "value": {
+                        "amount": 1.2,
+                        "units": "Go"
+                    },
+                    "valueName": "1.2 Go used",
+                    "consumptionPeriod": {
+                        "startDateTime": "2018-03-01T:00:00:00",
+                        "endDateTime": "2018-03-15T:00:00:00"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "bkt002",
+            "name": "Main offer - national voice",
+            "usageType": "national voice",
+            "isShared": false,
+            "product": [
+                {
+                    "id": "product1",
+                    "name": "Kate smartphone",
+                    "publicIdentifier": "33601010101",
+                    "user": [
+                        {
+                            "id": "usr1",
+                            "name": "Kate",
+                            "role": "user",
+                            "@referredType": "individual"
+                        }
+                    ]
+                }
+            ],
+            "bucketBalance": [
+                {
+                    "remainingValue": {
+                        "amount": 80.0,
+                        "units": "mins"
+                    },
+                    "remainingValueName": "it remains 80 minutes",
+                    "validFor": {
+                        "startDateTime": "2018-03-15T:00:00:00",
+                        "endDateTime": "2018-03-30T:00:00:00"
+                    }
+                }
+            ],
+            "bucketCounter": [
+                {
+                    "counterType": "used",
+                    "level": "global",
+                    "value": {
+                        "amount": 40.0,
+                        "units": "mins"
+                    },
+                    "valueName": "40 mins used",
+                    "consumptionPeriod": {
+                        "startDateTime": "2018-03-01T:00:00:00",
+                        "endDateTime": "2018-03-15T:00:00:00"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "bkt003",
+            "name": "Main offer - sms",
+            "usageType": "sms",
+            "isShared": false,
+            "product": [
+                {
+                    "id": "product1",
+                    "name": "Kate smartphone",
+                    "publicIdentifier": "33601010101",
+                    "user": [
+                        {
+                            "id": "usr1",
+                            "name": "Kate",
+                            "role": "user",
+                            "@referredType": "individual"
+                        }
+                    ]
+                }
+            ],
+            "bucketBalance": [
+                {
+                    "remainingValue": {
+                        "amount": 95.0,
+                        "units": "sms"
+                    },
+                    "remainingValueName": "it remains 95 sms",
+                    "validFor": {
+                        "startDateTime": "2018-03-15T:00:00:00",
+                        "endDateTime": "2018-03-30T:00:00:00"
+                    }
+                }
+            ],
+            "bucketCounter": [
+                {
+                    "counterType": "used",
+                    "level": "global",
+                    "value": {
+                        "amount": 25.0,
+                        "units": "sms"
+                    },
+                    "valueName": "25 sms used",
+                    "consumptionPeriod": {
+                        "startDateTime": "2018-03-01T:00:00:00",
+                        "endDateTime": "2018-03-15T:00:00:00"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "bkt004",
+            "name": "Option Canada/USA - voice",
+            "usageType": "voice",
+            "isShared": false,
+            "product": [
+                {
+                    "id": "product1",
+                    "name": "Kate smartphone",
+                    "publicIdentifier": "33601010101",
+                    "user": [
+                        {
+                            "id": "usr1",
+                            "name": "Kate",
+                            "role": "user",
+                            "@referredType": "individual"
+                        }
+                    ]
+                }
+            ],
+            "bucketBalance": [
+                {
+                    "remainingValue": {
+                        "amount": 10.0,
+                        "units": "mins"
+                    },
+                    "remainingValueName": "it remains 10 minutes",
+                    "validFor": {
+                        "startDateTime": "2018-03-15T:00:00:00",
+                        "endDateTime": "2018-03-30T:00:00:00"
+                    }
+                }
+            ],
+            "bucketCounter": [
+                {
+                    "counterType": "used",
+                    "level": "global",
+                    "value": {
+                        "amount": 20.0,
+                        "units": "mins"
+                    },
+                    "valueName": "20 mins used",
+                    "consumptionPeriod": {
+                        "startDateTime": "2018-03-01T:00:00:00",
+                        "endDateTime": "2018-03-15T:00:00:00"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "bkt005",
+            "name": "Option Canada/USA - sms",
+            "usageType": "sms",
+            "isShared": false,
+            "product": [
+                {
+                    "id": "product1",
+                    "name": "Kate smartphone",
+                    "publicIdentifier": "33601010101",
+                    "user": [
+                        {
+                            "id": "usr1",
+                            "name": "Kate",
+                            "role": "user",
+                            "@referredType": "individual"
+                        }
+                    ]
+                }
+            ],
+            "bucketBalance": [
+                {
+                    "remainingValue": {
+                        "amount": 0.0,
+                        "units": "sms"
+                    },
+                    "remainingValueName": "Sms bucket exhausted",
+                    "validFor": {
+                        "startDateTime": "2018-03-15T:00:00:00",
+                        "endDateTime": "2018-03-30T:00:00:00"
+                    }
+                }
+            ],
+            "bucketCounter": [
+                {
+                    "counterType": "used",
+                    "level": "global",
+                    "value": {
+                        "amount": 10.0,
+                        "units": "sms"
+                    },
+                    "valueName": "10 sms used",
+                    "consumptionPeriod": {
+                        "startDateTime": "2018-03-01T:00:00:00",
+                        "endDateTime": "2018-03-15T:00:00:00"
+                    }
+                }
+            ]
+        }
+    ]
+}

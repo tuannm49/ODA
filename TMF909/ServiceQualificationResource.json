@@ -1,0 +1,73 @@
+{
+    "description": "Maximum download/upload speed for access at an address",
+    "effectiveQualificationDate": "2017-10-25T12:14:16.361Z",
+    "estimatedResponseDate": "2017-10-25T12:13:16.361Z",
+    "expectedQualificationDate": "2017-10-25T12:13:16.361Z",
+    "expirationDate": "2017-11-25T12:13:16.361Z",
+    "href": "https://mycsp.com:8080/tmf-api/serviceQualificationManagement/v3/serviceQualification/5565",
+    "id": "5565",
+    "provideAlternative": true,
+    "provideOnlyAvailable": false,
+    "provideUnavailabilityReason": false,
+    "serviceQualificationDate": "2017-10-25T12:13:16.361Z",
+    "state": "done",
+    "serviceQualificationItem": [
+        {
+            "id": "1",
+            "qualificationResult": "qualified",
+            "state": "done",
+            "service": {
+                "serviceSpecification": {
+                    "id": "111",
+                    "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v3/serviceSpecification/111",
+                    "name": "CFS_Access"
+                },
+                "serviceCharacteristic": [
+                    {
+                        "name": "downloadSpeed",
+                        "valueType": "object",
+                        "value": {
+                            "@type": "Bandwidth",
+                            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/Bandwidth.schema.json",
+                            "speed": "300Mb/s"
+                        }
+                    },
+                    {
+                        "name": "uploadSpeed",
+                        "valueType": "object",
+                        "value": {
+                            "@type": "Bandwidth",
+                            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/Bandwidth.schema.json",
+                            "speed": "100Mb/s"
+                        }
+                    }
+                ],
+                "place": [
+                    {
+                        "href": "https://mycsp.com:8080/tmf-api/geographicAddressManagement/v3/geographicAddress/25511",
+                        "id": "25511",
+                        "name": "160 de Versailles Avenue 75016 Paris France",
+                        "role": "installationAddress",
+                        "@type": "GeographicAddress"
+                    }
+                ]
+            },
+            "expectedServiceAvailabilityDate": "2017-10-27T12:14:16.361Z",
+            "expirationDate": "2017-11-25T12:13:16.361Z"
+        }
+    ],
+    "relatedParty": [
+        {
+            "id": "14",
+            "href": "https://mycsp.com:8080/tmf-api/partyManagement/v3/party/14",
+            "role": "requester",
+            "name": "John Doe",
+            "@referredType": "Individual"
+        }
+    ],
+    "externalId": "SQ102",
+    "qualificationResult": "qualified",
+    "@baseType": "ServiceQualification",
+    "@type": "CFServiceQualification",
+    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/CFServiceQualification.schema.json"
+}

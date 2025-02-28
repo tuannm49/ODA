@@ -1,0 +1,22 @@
+{
+    "id": "5351",
+    "href": "https://mycsp.com:8080/tmf-api/ServiceActivationAndConfiguration/v3/service/5351",
+    "serviceType": "Cloud",
+    "state": "Active",
+    "serviceDate": "2018-01-15T12:26:11.747Z",
+    "startDate": "2018-01-15T12:26:11.747Z",
+    "serviceCharacteristic": [
+        {
+            "name": "vCPE_IP",
+            "valueType": "object",
+            "value": {
+                "@type": "IPAddress",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/IPAddress.schema.json",
+                "address": "193.218.236.21"
+            }
+        }
+    ],
+    "@type": "vCPE",
+    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/vCPE.schema.json",
+    "@baseType": "Service"
+}

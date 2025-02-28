@@ -1,0 +1,10 @@
+{
+    "id": "ucrreq001",
+    "href": "https://serverRoot/tmf-api/usageConsumption/usageConsumptionReportRequest/ucrreq001",
+    "creationDate": "2018-03-15T:15:44:28",
+    "status": "inProgress",
+    "lastUpdate": "2018-03-15T:15:44:28",
+    "product": {
+        "publicIdentifier ": "33601010101"
+    }
+}
