@@ -1,0 +1,90 @@
+@startyaml
+!theme plain
+
+service_code: VIP199
+channel:
+	prepaid:
+		- SMS 900
+		- SMCS (1543)
+		- VNPTSHOP
+		- APP EMPLOYEE
+		- APP MYVNPT
+		- VNPTMONEY
+		- APP DIGISHOP
+		- CCOS
+		- DIGISHOP WEB
+	postpaid:
+		- CCBS
+		- SMS 888
+		- CCOS
+		- MyVNPT (Chưa tích hợp \n bán gói trả sau trên CCBS)
+		- APP EMPLOYEE
+		- APP DIGISHOP
+		- VNPTMONEY
+
+qualification:
+	Hoặc:
+	    - Thuê bao HMM
+		- Doanh thu bình quân \n 03 thàng liên tiếp < giá gói
+cycle:
+    duration_type: tháng dương lịch
+    duration: 1 tháng
+pricing:
+    price: 199,000 vnd
+    notes:
+		- từ ngày 16, thu 50% giá gói
+        - hỗ trợ thu tại quầy \n (theo IT360-818012)
+commitments:
+    - cam kết dùng gói 18 tháng
+    - cam kết MNP 24 tháng
+offers:
+	master_mobile:
+		voice:
+			volumes:
+				- 2000 Voice_Onnet_VNP
+				- 200 Voice_OffNet_VNP
+			directions:
+				- Số phút thoại nội mạng VNP (Voice_Onnet_VNP)
+				- Số phút thoại nội mạng VNPT (Voice_Onnet_VNPT)
+				- VinaPhone, MobiFone, Cố định/Gphone toàn quốc (Voice_Alo_2)
+				- Số phút thoại ngoại mạng VNPT (Voice_Offnet_VNPT)
+				- Thoại trong nước không gồm VNP (Voice_OffNet_VNP)
+				- Số phút thoại trong nước (Voice_TN)
+				- Số phút thoại quốc tế (Voice_QT)
+			community:
+			    - free cuộc gọi nội nhóm
+		sms:
+			volumes:
+				- 0
+			directions:
+				- Số SMS nội mạng VNP (SMS_Onnet_VNP)
+				- Số SMS nội mạng VNPT (SMS_Onnet_VNPT)
+				- Số SMS ngoại mạng VNPT (SMS_Offnet_VNPT)
+				- SMS trong nước không gồm VNP (SMS_Offnet_VNP)
+				- Số SMS trong nước (SMS_TN)
+				- Số SMS quốc tế (SMS_QT)
+		data:
+			volumes:
+				- 8g/ngày/tháng, Big, dạng share (nhóm)
+			community:
+			    - tối đa 02 người,
+			    - mỗi thành viên dc 1g/ngày,
+			    - tv không dc hotspot
+                - mỗi tv có phí 15k/tháng (CN trả)
+			free_ip:
+				- Zalo
+				- Facebook
+				- Tiktok
+				- Youtube
+				- Whatsapp
+		5g:
+			- volte
+			- vowifi
+		contents:
+			volumes: MyTv SportTV và \n Chọn tối đa X gói trong [lists], tùy gói
+			lists:
+				- Galaxy Cao cấp
+				- VieOn;
+				- FTP Play;
+				- OnPlus;
+@endyaml

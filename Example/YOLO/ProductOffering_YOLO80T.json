@@ -1,0 +1,201 @@
+{
+    "id": "7655",
+    "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/productOffering/7655",
+    "name": "YOLO80T",
+    "description": "",
+    "version": "2.1",
+    "validFor": {
+        "startDateTime": "2020-09-23T00:00:00Z",
+        "endDateTime": "2021-08-25T00:00:00Z"
+    },
+    "lastUpdate": "2020-09-27T00:00:00Z",
+    "lifecycleStatus": "Active",
+    "isBundle": false,
+    "isSellable": true,
+    "place": [
+    ],
+    "productOfferingCharacteristic": [
+        {
+            "name": "Giá cước",
+            "description": "Giá cước",
+            "valueType": "string",
+            "configurable": false,
+            "productOfferingCharacteristicValue": [
+                {
+                    "valueType": "string",
+                    "value": "80.000đ/tháng",
+                    "@type": "StringCharacteristicValueSpecification"
+                }
+            ],
+            "@type": "ProductOfferingCharacteristic"
+        },
+        {
+            "name": "Data tốc độ cao",
+            "description": "Data tốc độ cao",
+            "valueType": "string",
+            "configurable": false,
+            "productOfferingCharacteristicValue": [
+                {
+                    "valueType": "string",
+                    "value": "1 GB data/ngày (hết dung lượng dừng truy cập).",
+                    "@type": "StringCharacteristicValueSpecification"
+                }
+            ],
+            "@type": "ProductOfferingCharacteristic"
+        },
+        {
+            "name": "Cước phát sinh ngoài gói",
+            "description": "Cước phát sinh ngoài gói",
+            "valueType": "string",
+            "configurable": false,
+            "productOfferingCharacteristicValue": [
+                {
+                    "valueType": "string",
+                    "value": "Tự động ngắt kết nối khi hết dung lượng, tránh phát sinh chi phí.",
+                    "@type": "StringCharacteristicValueSpecification"
+                }
+            ],
+            "@type": "ProductOfferingCharacteristic"
+        }
+    ],
+    "bundledGroupProductOfferingOption": {
+    },
+    "productSpecification": {
+        "id": "1",
+        "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/productSpecification/9881",
+        "version": "1.1",
+        "name": "YOLO",
+        "@referredType": "ProductSpecification",
+        "@type": "ProductSpecificationRef"
+    },
+    "channel": [
+    ],
+    "serviceCandidate": {
+    },
+    "category": [
+        {
+            "id": "2646",
+            "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/category/2646",
+            "version": "2.0",
+            "name": "Gói cước di động",
+            "@referredType": "Category",
+            "@type": "CategoryRef"
+        }
+    ],
+    "resourceCandidate": {
+    },
+    "productOfferingTerm": [
+    ],
+    "productOfferingPrice": [
+    { 
+        "id": "1747", 
+        "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/productOfferingPrice/1747", 
+        "name": "Recurring Monthly Price for Business Firewall", 
+        "@referredType": 
+        "ProductOfferingPrice", "@type": "ProductOfferingPrice"
+    }
+    ],
+    "agreement": [
+    ],
+    "attachment": [
+    ],
+    "marketSegment": [
+    ],
+    "bundledProductOffering": [],
+    "productOfferingRelationship": [
+    ],
+    "prodSpecCharValueUse": [
+        {
+            "name": "Ưu đãi gói cước",
+            "id": "3331",
+            "description": "Ưu đãi gói cước",
+            "valueType": "string",
+            "minCardinality": 1,
+            "maxCardinality": 1,
+            "validFor": {
+                "startDateTime": "2020-09-23T00:00:00Z",
+                "endDateTime": "2021-09-23T00:00:00Z"
+            },
+            "@type": "ProductSpecificationCharacteristicValueUse",
+            "productSpecCharacteristicValue": [
+                {
+                    "isDefault": true,
+                    "valueType": "string",
+                    "validFor": {
+                        "startDateTime": "2020-09-23T00:00:00Z",
+                        "endDateTime": "2021-09-23T00:00:00Z"
+                    },
+                    "value": "1 GB data/ngày (hết dung lượng dừng truy cập)",
+                    "@type": "StringCharacteristicValueSpecification"
+                },
+                {
+                    "isDefault": false,
+                    "valueType": "string",
+                    "validFor": {
+                        "startDateTime": "2020-09-23T00:00:00Z",
+                        "endDateTime": "2021-09-23T00:00:00Z"
+                    },
+                    "value": "Miễn phí Data truy cập ứng dụng TikTok, MyTV Mobile",
+                    "@type": "StringCharacteristicValueSpecification"
+                }
+            ],
+            "productSpecification": {
+                "id": "1",
+                "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/productSpecification/9881",
+                "version": "1.1",
+                "name": "YOLO",
+                "@referredType": "ProductSpecification",
+                "@type": "ProductSpecificationRef"
+            }
+        },
+        {
+            "name": "Chu kỳ",
+            "id": "3331",
+            "description": "Chu kỳ gói cước",
+            "valueType": "string",
+            "minCardinality": 1,
+            "maxCardinality": 1,
+            "validFor": {
+                "startDateTime": "2020-09-23T00:00:00Z",
+                "endDateTime": "2021-09-23T00:00:00Z"
+            },
+            "@type": "ProductSpecificationCharacteristicValueUse",
+            "productSpecCharacteristicValue": [
+                {
+                    "isDefault": true,
+                    "valueType": "string",
+                    "value": "30 Ngày",
+                    "@type": "StringCharacteristicValueSpecification"
+                },
+                {
+                    "isDefault": false,
+                    "valueType": "string",
+                    "value": "90 Ngày",
+                    "@type": "StringCharacteristicValueSpecification"
+                },
+                {
+                    "isDefault": false,
+                    "valueType": "string",
+                    "value": "180 Ngày",
+                    "@type": "StringCharacteristicValueSpecification"
+                },
+                {
+                    "isDefault": false,
+                    "valueType": "string",
+                    "value": "360 Ngày",
+                    "@type": "StringCharacteristicValueSpecification"
+                }
+            ],
+            "productSpecification": {
+                "id": "1",
+                "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/productSpecification/9881",
+                "version": "1.1",
+                "name": "YOLO",
+                "@referredType": "ProductSpecification",
+                "@type": "ProductSpecificationRef"
+            }
+        }
+    ],
+    "@type": "ProductOffering"
+}
+

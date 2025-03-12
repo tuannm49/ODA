@@ -1,0 +1,15 @@
+@startyaml
+!theme plain
+PO_Code: 6HOC60
+Mobile Line (PS):
+    Mobile Basic Plan (CFS):
+        Characteristic:
+            BeautyNumber: 
+                msisdn:84915043333
+            Data:
+                dataVolume: 60 GB
+                dataVolumePerDay: 2 GB
+                freeIP: Youtube/Tiktok
+    VAS (CFS):
+        - License Hoc mai
+@enduml

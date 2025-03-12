@@ -1,0 +1,73 @@
+{
+    "id": "PKL-1",
+    "code": "Color_Box",
+    "name": "Color",
+    "description": "Danh sách mầu sắc",
+    "version": "1",
+    "dataType": "list",
+    "lifecycleStatus": "",
+    "active": true,
+    "validFor": {
+      "startDateTime": "02/12/2024",
+      "endDateTime": "08/02/2031"
+    },
+    "items": [
+        {
+            "code":"PKL-1-red",
+            "valueType": "object",
+            "unitOfMeasure": "",
+            "value": {
+                "label":"Red",
+                "url": "https://aboffs.com/cdn/shop/products/2003-20-strawberryred_2000x.png?v=1587083207"
+            },
+            "isDefault": true,
+            "validFor": {
+                "startDateTime": "00:00:00Z",
+                "endDateTime": "23:59:59Z"
+            },
+            "@type": "ObjectCharacteristicValueSpecification",
+            "@baseType": "",
+            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+        },
+        {
+            "code":"PKL-1-blue",
+            "valueType": "object",
+            "unitOfMeasure": "",
+            "value": {
+                "label":"blue",
+                "url": "https://aboffs.com/cdn/shop/products/2003-20-strawberryred_2000x.png?v=1587083207"
+            },
+            "isDefault": false,
+            "validFor": {
+                "startDateTime": "00:00:00Z",
+                "endDateTime": "23:59:59Z"
+            },
+            "@type": "ObjectCharacteristicValueSpecification",
+            "@baseType": "",
+            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+        },
+        {
+            "code":"PKL-1-black",
+            "valueType": "object",
+            "unitOfMeasure": "",
+            "value": {
+                "label":"Black",
+                "url": "https://aboffs.com/cdn/shop/products/2003-20-strawberryred_2000x.png?v=1587083207"
+            },
+            "isDefault": false,
+            "validFor": {
+                "startDateTime": "00:00:00Z",
+                "endDateTime": "23:59:59Z"
+            },
+            "@type": "ObjectCharacteristicValueSpecification",
+            "@baseType": "",
+            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+        }
+      
+    ],
+    "@type": "PickList",
+    "@baseType": "PickList",
+    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/PickList.schema.json",
+    "assetuserroleid": "1",
+    "lastUpdate": "12/2/2024"
+  }

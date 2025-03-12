@@ -1,0 +1,21 @@
+@startyaml
+!theme plain
+PO_Code: HOC60
+ProductSpecification:
+
+    cycle:
+        - cycle_duration_type
+        - cycle_duration
+    data:
+        - data_volumes
+        - data_community
+        - data_free_ip
+    voice:
+        - voice_volumes
+        - voice_directions
+        - voice_community
+    sms:
+        - sms_volumes
+        - sms_directions
+
+@enduml

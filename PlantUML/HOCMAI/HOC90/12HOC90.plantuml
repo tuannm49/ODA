@@ -1,0 +1,24 @@
+@startyaml
+!theme plain
+PO_Code: 12HOC90
+ProductSpecification:
+    period:
+        period_duration_type: Month
+        period_duration: 14
+    data:
+        data_volumes: 4GB
+        data_cycle_duration_type: Day
+        data_cycle_duration: 1
+        data_free_ip: 
+            - HocMai
+            - Youtube
+            - Tiktok
+    voice:
+        voice_cycle_duration_type: Month
+        voice_cycle_duration: 1
+        voice_internal: 1000
+        voice_external: 50
+    vas:
+        - License Hoc mai
+
+@enduml

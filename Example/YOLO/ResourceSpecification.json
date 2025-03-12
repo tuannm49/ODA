@@ -1,0 +1,174 @@
+[
+    {
+        "id": "RS-1",
+        "href": "https://mycsp.com:8080/tmf-api/resourceCatalog/v5/resourceSpecification/42",
+        "name": "Quota",
+        "description": "Dung lượng data",
+        "@type": "ResourceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecification.schema.json",
+        "version": "3.2",
+        "validFor": {
+            "startDateTime": "2020-08-12T00:00:00.000Z",
+            "endDateTime": "2022-03-07T00:00:00.000Z"
+        },
+        "lastUpdate": "2021-08-12T00:00:00.000Z",
+        "lifecycleStatus": "Active",
+        "isBundle": false,
+        "category": "Cloud resource",
+        "attachment": [],
+
+        "relatedParty": [],
+        "resourceSpecCharacteristic": [
+            {
+                "id": "CS-2",
+                "name": "Quota Data",
+                "description": "The storage limit in the virtual storage medium, ",
+                "valueType": "integer",
+                "configurable": true,
+                "minCardinality": 1,
+                "maxCardinality": 1,
+                "isUnique": true,
+                "@type": "CharacteristicSpecification",
+                "characteristicValueSpecification": [
+                    {
+                        "value": 1024000,
+                        "@type": "IntegerCharacteristicValueSpecification"
+                    },
+                    {
+                        "value": 1536000,
+                        "@type": "IntegerCharacteristicValueSpecification"
+                    },
+                    {
+                        "value": 5120000,
+                        "@type": "IntegerCharacteristicValueSpecification"
+                    },
+                    {
+                        "value": 7168000,
+                        "@type": "IntegerCharacteristicValueSpecification"
+                    }
+                ]
+            }
+        ],
+        "resourceSpecRelationship": []
+    },
+    {
+        "id": "RS-2",
+        "href": "https://mycsp.com:8080/tmf-api/resourceCatalog/v5/resourceSpecification/42",
+        "name": "Quota free",
+        "description": "Miễn phí dung lượng data",
+        "@type": "ResourceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecification.schema.json",
+        "version": "3.2",
+        "validFor": {
+            "startDateTime": "2020-08-12T00:00:00.000Z",
+            "endDateTime": "2022-03-07T00:00:00.000Z"
+        },
+        "lastUpdate": "2021-08-12T00:00:00.000Z",
+        "lifecycleStatus": "Active",
+        "isBundle": false,
+        "category": "Free Data",
+        "attachment": [],
+
+        "relatedParty": [],
+        "resourceSpecCharacteristic": [
+            {
+                "id": "CS-2",
+                "name": "Quota free",
+                "description": "Miễn phí dung lượng data truy cập ứng dụng",
+                "valueType": "integer",
+                "configurable": true,
+                "minCardinality": 1,
+                "maxCardinality": 1,
+                "isUnique": true,
+                "@type": "CharacteristicSpecification",
+                "characteristicValueSpecification": [
+                    {
+                        "value": "Tiktok",
+                        "@type": "StringCharacteristicValueSpecification"
+                    },
+                    {
+                        "value": "Facebook",
+                        "@type": "StringCharacteristicValueSpecification"
+                    },
+                    {
+                        "value": "MyTV Mobile",
+                        "@type": "StringCharacteristicValueSpecification"
+                    },
+                    {
+                        "value": "Facebook",
+                        "@type": "StringCharacteristicValueSpecification"
+                    },
+                    {
+                        "value": "MyTV add-on VTVCAB",
+                        "@type": "StringCharacteristicValueSpecification"
+                    },
+                    {
+                        "value": "BookReavol",
+                        "@type": "StringCharacteristicValueSpecification"
+                    }
+                ]
+            }
+        ],
+        "resourceSpecRelationship": []
+    },
+    {
+        "id": "RS-3",
+        "href": "https://mycsp.com:8080/tmf-api/resourceCatalog/v5/resourceSpecification/42",
+        "name": "Usage",
+        "description": "Thời hạn sử dụng dịch vụ",
+        "@type": "ResourceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecification.schema.json",
+        "version": "3.2",
+        "validFor": {
+            "startDateTime": "2020-08-12T00:00:00.000Z",
+            "endDateTime": "2022-03-07T00:00:00.000Z"
+        },
+        "lastUpdate": "2021-08-12T00:00:00.000Z",
+        "lifecycleStatus": "Active",
+        "isBundle": false,
+        "category": "Free Data",
+        "attachment": [],
+
+        "relatedParty": [],
+        "resourceSpecCharacteristic": [
+            {
+                "id": "CS-2",
+                "name": "Usage",
+                "description": "Thời hạn sử dụng dịch vụ",
+                "valueType": "integer",
+                "configurable": true,
+                "minCardinality": 1,
+                "maxCardinality": 1,
+                "isUnique": true,
+                "@type": "CharacteristicSpecification",
+                "characteristicValueSpecification": [
+                    {
+                        "value": 15,
+                        "@type": "IntegerCharacteristicValueSpecification"
+                    },
+                    {
+                        "value": 30,
+                        "@type": "IntegerCharacteristicValueSpecification"
+                    },
+                    {
+                        "value": 60,
+                        "@type": "IntegerCharacteristicValueSpecification"
+                    },
+                    {
+                        "value": 90,
+                        "@type": "IntegerCharacteristicValueSpecification"
+                    },
+                    {
+                        "value": 120,
+                        "@type": "IntegerCharacteristicValueSpecification"
+                    },
+                    {
+                        "value": 360,
+                        "@type": "IntegerCharacteristicValueSpecification"
+                    }
+                ]
+            }
+        ],
+        "resourceSpecRelationship": []
+    }
+]

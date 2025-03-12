@@ -1,0 +1,36 @@
+[{
+    "id": "3830",
+    "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/Catalog/3830",
+    "name": "Gói cước dữ liệu",
+    "description": "This catalog describes Product Offerings and technical specifications intended to address the wholesale business segment.",
+    "catalogType": "ProductCatalog",
+    "version": "1.0",
+    "validFor": {
+        "startDateTime": "2020-08-29T00:00:00Z",
+        "endDateTime": "2024-03-25T00:00:00Z"
+    },
+    "lastUpdate": "2020-08-27T00:00:00Z",
+    "lifecycleStatus": "Active",
+    "relatedParty": [
+    ],
+    "category": [
+        {
+            "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/category/7757",
+            "id": "7757",
+            "name": "Gói cước di động",
+            "version": "1.0",
+            "@referredType": "Category",
+            "@type": "CategoryRef"
+        },
+        {
+            "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/category/7757",
+            "id": "7757",
+            "name": "Gói cước internet băng rộng",
+            "version": "1.0",
+            "@referredType": "Category",
+            "@type": "CategoryRef"
+        }
+    ],
+    "@type": "Catalog"
+}
+]

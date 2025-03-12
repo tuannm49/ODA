@@ -1,0 +1,94 @@
+{
+    "id": "42",
+    "href": "http://serverlocation:port/serviceOrdering/v5/serviceOrder/42",
+    "state": "InProgress",
+    "category": "TMF resource illustration",
+    "orderDate": "2020-08-27T09:37:40.508Z",
+    "startDate": "2020-08-31T09:37:40.508Z",
+    "requestedCompletionDate": "2020-08-31T09:37:40.508Z",
+    "note": [],
+    "@type": "ServiceOrder",
+    "description": "Service order description",
+    "priority": "1",
+    "relatedParty": [],
+    "requestedStartDate": "2020-08-31T09:37:40.508Z",
+    "serviceOrderItem": [
+        {
+            "service": {
+                "@type": "Service",
+                "serviceSpecification": {
+                    "id": "SS-1",
+                    "name": "Dung lượng Data",
+                    "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v5/serviceSpecification/1212",
+                    "version": "1.0.0",
+                    "@type": "ServiceSpecificationRef",
+                    "@referredType": "ServiceSpecification"
+                },
+                "state": "active",
+                "serviceCharacteristic": [
+                    {
+                        "id": "Char1",
+                        "valueType": "integer",
+                        "unitOfMeasure": "GB",
+                        "value": 1,
+                        "@type": "IntergerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    },
+                    {
+                        "id": "Char5",
+                        "valueType": "string",
+                        "value": "MyTV Mobile",
+                        "@type": "StringCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    },
+                    {
+                        "id": "Char4",
+                        "valueType": "integer",
+                        "unitOfMeasure": "Day",
+                        "value": 15,
+                        "@type": "IntergerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                ]
+            },
+            "@type": "ServiceOrderItem",
+            "action": "add",
+            "id": "1",
+            "state": "InProgress"
+        },
+        {
+            "service": {
+                "@type": "Service",
+                "serviceSpecification": {
+                    "id": "SS-3",
+                    "name": "Data truy cập ứng dụng MyTV Mobile",
+                    "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceSpecification/7655",
+                    "version": "1.0.0",
+                    "@type": "ServiceSpecificationRef",
+                    "@referredType": "ServiceSpecification"
+                },
+                "state": "active",
+                "serviceCharacteristic": [
+                    {
+                        "id": "Char5",
+                        "valueType": "string",
+                        "value": "MyTV Mobile",
+                        "@type": "StringCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                ]
+            },
+            "@type": "ServiceOrderItem",
+            "action": "add",
+            "id": "1",
+            "state": "InProgress"
+        }
+    ],
+    "milestone": [
+    ],
+    "expectedCompletionDate": "2020-08-31T09:37:40.508Z"
+}

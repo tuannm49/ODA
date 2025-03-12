@@ -1,0 +1,745 @@
+[
+    {
+        "id": "SS-1",
+        "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceSpecification/7655",
+        "name": "Dung lượng Data",
+        "description": "",
+        "version": "2.1",
+        "validFor": {
+            "startDateTime": "2017-08-23T00:00:00.000Z",
+            "endDateTime": "2021-03-25T00:00:00.000Z"
+        },
+        "lastUpdate": "2020-08-15T00:00:00.000Z",
+        "lifecycleStatus": "Active",
+        "isBundle": false,
+        "resourceSpecification": [
+            {
+                "href": "https://mycsp.com:8080/tmf-api/resourceCatalogManagement/v4/resourceSpecification/42",
+                "id": "42",
+                "name": "Firewall",
+                "version": "1.0",
+                "@referredType": "ResourceFunctionSpec",
+                "@type": "ResourceSpecificationRef",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecificationRef.schema.json"
+            }
+        ],
+        "attachment": [],
+        "specCharacteristic": [
+            {
+                "name": "1 GB data/ngày (hết dung lượng dừng truy cập)",
+                "id": "Char1",
+                "description": "",
+                "valueType": "string",
+                "configurable": false,
+                "validFor": {
+                    "startDateTime": "2017-08-12T00:00:00.000Z",
+                    "endDateTime": "2021-03-07T00:00:00.000Z"
+                },
+                "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+                "minCardinality": 0,
+                "maxCardinality": 1,
+                "isUnique": true,
+                "regex": "",
+                "extensible": false,
+                "characteristicValueSpecification": [
+                    {
+                        "valueType": "integer",
+                        "unitOfMeasure": "GB",
+                        "value": 1,
+                        "isDefault": true,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "IntergerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                ],
+                "charSpecRelationship": [],
+                "@type": "SpecCharacteristic",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/SpecCharacteristic.schema.json"
+            },
+            {
+                "name": "1.5 GB data/ngày (hết dung lượng dừng truy cập)",
+                "id": "Char2",
+                "description": "",
+                "valueType": "string",
+                "configurable": false,
+                "validFor": {
+                    "startDateTime": "2017-08-12T00:00:00.000Z",
+                    "endDateTime": "2021-03-07T00:00:00.000Z"
+                },
+                "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+                "minCardinality": 0,
+                "maxCardinality": 1,
+                "isUnique": true,
+                "regex": "",
+                "extensible": false,
+                "characteristicValueSpecification": [
+                    {
+                        "valueType": "integer",
+                        "unitOfMeasure": "GB",
+                        "value": 1.5,
+                        "isDefault": true,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "IntergerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                ],
+                "charSpecRelationship": [],
+                "@type": "SpecCharacteristic",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/SpecCharacteristic.schema.json"
+            },
+            {
+                "name": "7 GB data/ngày (hết dung lượng dừng truy cập)",
+                "id": "Char3",
+                "description": "",
+                "valueType": "string",
+                "configurable": false,
+                "validFor": {
+                    "startDateTime": "2017-08-12T00:00:00.000Z",
+                    "endDateTime": "2021-03-07T00:00:00.000Z"
+                },
+                "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+                "minCardinality": 0,
+                "maxCardinality": 1,
+                "isUnique": true,
+                "regex": "",
+                "extensible": false,
+                "characteristicValueSpecification": [
+                    {
+                        "valueType": "integer",
+                        "unitOfMeasure": "GB",
+                        "value": 7,
+                        "isDefault": true,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "IntergerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                ],
+                "charSpecRelationship": [],
+                "@type": "SpecCharacteristic",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/SpecCharacteristic.schema.json"
+            },
+            {
+                "name": "Thời gian sử dụng",
+                "id": "Char4",
+                "description": "",
+                "valueType": "string",
+                "configurable": true,
+                "validFor": {
+                    "startDateTime": "2017-08-12T00:00:00.000Z",
+                    "endDateTime": "2021-03-07T00:00:00.000Z"
+                },
+                "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+                "minCardinality": 0,
+                "maxCardinality": 1,
+                "isUnique": true,
+                "regex": "",
+                "extensible": false,
+                "characteristicValueSpecification": [
+                    {
+                        "valueType": "integer",
+                        "unitOfMeasure": "Day",
+                        "value": 15,
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "IntergerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    },
+                    {
+                        "valueType": "integer",
+                        "unitOfMeasure": "Day",
+                        "value": 30,
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "IntergerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    },
+                    {
+                        "valueType": "integer",
+                        "unitOfMeasure": "Day",
+                        "value": 90,
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "IntergerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    },
+                    {
+                        "valueType": "integer",
+                        "unitOfMeasure": "Day",
+                        "value": 180,
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "IntergerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    },
+                    {
+                        "valueType": "integer",
+                        "unitOfMeasure": "Day",
+                        "value": 360,
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "IntergerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                ],
+                "charSpecRelationship": [],
+                "@type": "SpecCharacteristic",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/SpecCharacteristic.schema.json"
+            }
+        ],
+
+        "relatedParty": [],
+        "serviceSpecRelationship": [],
+
+        "serviceLevelSpecification": [],
+        "targetServiceSchema": {},
+        "constraint": [],
+        "entitySpecRelationship": [],
+        "featureSpecification": [],
+        "@type": "CustomerFacingServiceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/CustomerFacingServiceSpecification.schema.json",
+        "@baseType": "ServiceSpecification"
+    },
+    {
+        "id": "SS-2",
+        "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceSpecification/7655",
+        "name": "Miễn phí Data truy cập ứng dụng TikTok, MyTV Mobile",
+        "description": "",
+        "version": "2.1",
+        "validFor": {
+            "startDateTime": "2017-08-23T00:00:00.000Z",
+            "endDateTime": "2021-03-25T00:00:00.000Z"
+        },
+        "lastUpdate": "2020-08-15T00:00:00.000Z",
+        "lifecycleStatus": "Active",
+        "isBundle": false,
+        "resourceSpecification": [
+            {
+                "href": "https://mycsp.com:8080/tmf-api/resourceCatalogManagement/v4/resourceSpecification/42",
+                "id": "42",
+                "name": "Firewall",
+                "version": "1.0",
+                "@referredType": "ResourceFunctionSpec",
+                "@type": "ResourceSpecificationRef",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecificationRef.schema.json"
+            }
+        ],
+        "attachment": [],
+        "specCharacteristic": [
+            {
+                "name": "Miễn phí Data truy cập ứng dụng TikTok, MyTV Mobile",
+                "id": "Char5",
+                "description": "",
+                "valueType": "string",
+                "configurable": false,
+                "validFor": {
+                    "startDateTime": "2017-08-12T00:00:00.000Z",
+                    "endDateTime": "2021-03-07T00:00:00.000Z"
+                },
+                "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+                "minCardinality": 0,
+                "maxCardinality": 1,
+                "isUnique": true,
+                "regex": "",
+                "extensible": false,
+                "characteristicValueSpecification": [
+                    {
+                        "valueType": "string",
+                        "value": "TikTok",
+                        "isDefault": true,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "StringCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    },
+                    {
+                        "valueType": "string",
+                        "value": "MyTV Mobile",
+                        "isDefault": true,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "StringCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                ],
+                "charSpecRelationship": [],
+                "@type": "SpecCharacteristic",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/SpecCharacteristic.schema.json"
+            }
+        ],
+
+        "relatedParty": [],
+        "serviceSpecRelationship": [],
+
+        "serviceLevelSpecification": [],
+        "targetServiceSchema": {},
+        "constraint": [],
+        "entitySpecRelationship": [],
+        "featureSpecification": [],
+        "@type": "CustomerFacingServiceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/CustomerFacingServiceSpecification.schema.json",
+        "@baseType": "ServiceSpecification"
+    },
+    {
+        "id": "SS-3",
+        "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceSpecification/7655",
+        "name": "Data truy cập ứng dụng MyTV Mobile",
+        "description": "",
+        "version": "2.1",
+        "validFor": {
+            "startDateTime": "2017-08-23T00:00:00.000Z",
+            "endDateTime": "2021-03-25T00:00:00.000Z"
+        },
+        "lastUpdate": "2020-08-15T00:00:00.000Z",
+        "lifecycleStatus": "Active",
+        "isBundle": false,
+        "resourceSpecification": [
+            {
+                "href": "https://mycsp.com:8080/tmf-api/resourceCatalogManagement/v4/resourceSpecification/42",
+                "id": "42",
+                "name": "Firewall",
+                "version": "1.0",
+                "@referredType": "ResourceFunctionSpec",
+                "@type": "ResourceSpecificationRef",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecificationRef.schema.json"
+            }
+        ],
+        "attachment": [],
+        "specCharacteristic": [
+            {
+                "name": "Miễn phí Data truy cập ứng dụng MyTV Mobile",
+                "id": "Char5",
+                "description": "",
+                "valueType": "string",
+                "configurable": false,
+                "validFor": {
+                    "startDateTime": "2017-08-12T00:00:00.000Z",
+                    "endDateTime": "2021-03-07T00:00:00.000Z"
+                },
+                "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+                "minCardinality": 0,
+                "maxCardinality": 1,
+                "isUnique": true,
+                "regex": "",
+                "extensible": false,
+                "characteristicValueSpecification": [
+                    {
+                        "valueType": "string",
+                        "value": "TikTok",
+                        "isDefault": true,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "StringCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                ],
+                "charSpecRelationship": [],
+                "@type": "SpecCharacteristic",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/SpecCharacteristic.schema.json"
+            }
+        ],
+
+        "relatedParty": [],
+        "serviceSpecRelationship": [],
+
+        "serviceLevelSpecification": [],
+        "targetServiceSchema": {},
+        "constraint": [],
+        "entitySpecRelationship": [],
+        "featureSpecification": [],
+        "@type": "CustomerFacingServiceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/CustomerFacingServiceSpecification.schema.json",
+        "@baseType": "ServiceSpecification"
+    },
+    {
+        "id": "SS-4",
+        "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceSpecification/7655",
+        "name": "Miễn phí data truy cập các ứng dụng Facebook, MyTV Mobile",
+        "description": "",
+        "version": "2.1",
+        "validFor": {
+            "startDateTime": "2017-08-23T00:00:00.000Z",
+            "endDateTime": "2021-03-25T00:00:00.000Z"
+        },
+        "lastUpdate": "2020-08-15T00:00:00.000Z",
+        "lifecycleStatus": "Active",
+        "isBundle": false,
+        "resourceSpecification": [
+            {
+                "href": "https://mycsp.com:8080/tmf-api/resourceCatalogManagement/v4/resourceSpecification/42",
+                "id": "42",
+                "name": "Firewall",
+                "version": "1.0",
+                "@referredType": "ResourceFunctionSpec",
+                "@type": "ResourceSpecificationRef",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecificationRef.schema.json"
+            }
+        ],
+        "attachment": [],
+        "specCharacteristic": [
+            {
+                "name": "Miễn phí data truy cập các ứng dụng Facebook, MyTV Mobile",
+                "id": "Char5",
+                "description": "",
+                "valueType": "string",
+                "configurable": false,
+                "validFor": {
+                    "startDateTime": "2017-08-12T00:00:00.000Z",
+                    "endDateTime": "2021-03-07T00:00:00.000Z"
+                },
+                "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+                "minCardinality": 0,
+                "maxCardinality": 1,
+                "isUnique": true,
+                "regex": "",
+                "extensible": false,
+                "characteristicValueSpecification": [
+                    {
+                        "valueType": "string",
+                        "value": "Facebook",
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "StringCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    },
+                    {
+                        "valueType": "string",
+                        "value": "MyTV Mobile",
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "StringCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                ],
+                "charSpecRelationship": [],
+                "@type": "SpecCharacteristic",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/SpecCharacteristic.schema.json"
+            }
+        ],
+
+        "relatedParty": [],
+        "serviceSpecRelationship": [],
+
+        "serviceLevelSpecification": [],
+        "targetServiceSchema": {},
+        "constraint": [],
+        "entitySpecRelationship": [],
+        "featureSpecification": [],
+        "@type": "CustomerFacingServiceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/CustomerFacingServiceSpecification.schema.json",
+        "@baseType": "ServiceSpecification"
+    },
+    {
+        "id": "SS-5",
+        "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceSpecification/7655",
+        "name": "Miễn phí data truy cập các ứng dụng Youtube, Facebook, Tiktok, MyTV",
+        "description": "",
+        "version": "2.1",
+        "validFor": {
+            "startDateTime": "2017-08-23T00:00:00.000Z",
+            "endDateTime": "2021-03-25T00:00:00.000Z"
+        },
+        "lastUpdate": "2020-08-15T00:00:00.000Z",
+        "lifecycleStatus": "Active",
+        "isBundle": false,
+        "resourceSpecification": [
+            {
+                "href": "https://mycsp.com:8080/tmf-api/resourceCatalogManagement/v4/resourceSpecification/42",
+                "id": "42",
+                "name": "Firewall",
+                "version": "1.0",
+                "@referredType": "ResourceFunctionSpec",
+                "@type": "ResourceSpecificationRef",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecificationRef.schema.json"
+            }
+        ],
+        "attachment": [],
+        "specCharacteristic": [
+            {
+                "name": "Miễn phí data truy cập các ứng dụng Youtube, Facebook, Tiktok, MyTV",
+                "id": "Char5",
+                "description": "",
+                "valueType": "string",
+                "configurable": false,
+                "validFor": {
+                    "startDateTime": "2017-08-12T00:00:00.000Z",
+                    "endDateTime": "2021-03-07T00:00:00.000Z"
+                },
+                "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+                "minCardinality": 0,
+                "maxCardinality": 1,
+                "isUnique": true,
+                "regex": "",
+                "extensible": false,
+                "characteristicValueSpecification": [
+                    {
+                        "valueType": "string",
+                        "value": "Facebook",
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "StringCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    },
+                    {
+                        "valueType": "string",
+                        "value": "Tiktok",
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "StringCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    },
+                    {
+                        "valueType": "string",
+                        "value": "MyTV Mobile",
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "StringCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                ],
+                "charSpecRelationship": [],
+                "@type": "SpecCharacteristic",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/SpecCharacteristic.schema.json"
+            }
+        ],
+
+        "relatedParty": [],
+        "serviceSpecRelationship": [],
+
+        "serviceLevelSpecification": [],
+        "targetServiceSchema": {},
+        "constraint": [],
+        "entitySpecRelationship": [],
+        "featureSpecification": [],
+        "@type": "CustomerFacingServiceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/CustomerFacingServiceSpecification.schema.json",
+        "@baseType": "ServiceSpecification"
+    },
+    {
+        "id": "SS-6",
+        "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceSpecification/7655",
+        "name": "Truy cập MyTV add-on VTVCAB (140 kênh truyền hình bao gồm VTVCAB)",
+        "description": "",
+        "version": "2.1",
+        "validFor": {
+            "startDateTime": "2017-08-23T00:00:00.000Z",
+            "endDateTime": "2021-03-25T00:00:00.000Z"
+        },
+        "lastUpdate": "2020-08-15T00:00:00.000Z",
+        "lifecycleStatus": "Active",
+        "isBundle": false,
+        "resourceSpecification": [
+            {
+                "href": "https://mycsp.com:8080/tmf-api/resourceCatalogManagement/v4/resourceSpecification/42",
+                "id": "42",
+                "name": "Firewall",
+                "version": "1.0",
+                "@referredType": "ResourceFunctionSpec",
+                "@type": "ResourceSpecificationRef",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecificationRef.schema.json"
+            }
+        ],
+        "attachment": [],
+        "specCharacteristic": [
+            {
+                "name": "Truy cập MyTV add-on VTVCAB (140 kênh truyền hình bao gồm VTVCAB)",
+                "id": "Char5",
+                "description": "",
+                "valueType": "string",
+                "configurable": false,
+                "validFor": {
+                    "startDateTime": "2017-08-12T00:00:00.000Z",
+                    "endDateTime": "2021-03-07T00:00:00.000Z"
+                },
+                "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+                "minCardinality": 0,
+                "maxCardinality": 1,
+                "isUnique": true,
+                "regex": "",
+                "extensible": false,
+                "characteristicValueSpecification": [
+                    {
+                        "valueType": "string",
+                        "value": "MyTV add-on VTVCAB",
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "StringCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                ],
+                "charSpecRelationship": [],
+                "@type": "SpecCharacteristic",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/SpecCharacteristic.schema.json"
+            }
+        ],
+
+        "relatedParty": [],
+        "serviceSpecRelationship": [],
+
+        "serviceLevelSpecification": [],
+        "targetServiceSchema": {},
+        "constraint": [],
+        "entitySpecRelationship": [],
+        "featureSpecification": [],
+        "@type": "CustomerFacingServiceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/CustomerFacingServiceSpecification.schema.json",
+        "@baseType": "ServiceSpecification"
+    },
+    {
+        "id": "SS-7",
+        "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceSpecification/7655",
+        "name": "1 tài khoản sử dụng các nội dung tại ứng dụng đọc sách Reavol",
+        "description": "",
+        "version": "2.1",
+        "validFor": {
+            "startDateTime": "2017-08-23T00:00:00.000Z",
+            "endDateTime": "2021-03-25T00:00:00.000Z"
+        },
+        "lastUpdate": "2020-08-15T00:00:00.000Z",
+        "lifecycleStatus": "Active",
+        "isBundle": false,
+        "resourceSpecification": [
+            {
+                "href": "https://mycsp.com:8080/tmf-api/resourceCatalogManagement/v4/resourceSpecification/42",
+                "id": "42",
+                "name": "Firewall",
+                "version": "1.0",
+                "@referredType": "ResourceFunctionSpec",
+                "@type": "ResourceSpecificationRef",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecificationRef.schema.json"
+            }
+        ],
+        "attachment": [],
+        "specCharacteristic": [
+            {
+                "name": "1 tài khoản sử dụng các nội dung tại ứng dụng đọc sách Reavol",
+                "id": "Char5",
+                "description": "",
+                "valueType": "string",
+                "configurable": false,
+                "validFor": {
+                    "startDateTime": "2017-08-12T00:00:00.000Z",
+                    "endDateTime": "2021-03-07T00:00:00.000Z"
+                },
+                "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+                "minCardinality": 0,
+                "maxCardinality": 1,
+                "isUnique": true,
+                "regex": "",
+                "extensible": false,
+                "characteristicValueSpecification": [
+                    {
+                        "valueType": "string",
+                        "value": "BookReavol",
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "StringCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                ],
+                "charSpecRelationship": [],
+                "@type": "SpecCharacteristic",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/SpecCharacteristic.schema.json"
+            }
+        ],
+
+        "relatedParty": [],
+        "serviceSpecRelationship": [],
+
+        "serviceLevelSpecification": [],
+        "targetServiceSchema": {},
+        "constraint": [],
+        "entitySpecRelationship": [],
+        "featureSpecification": [],
+        "@type": "CustomerFacingServiceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/CustomerFacingServiceSpecification.schema.json",
+        "@baseType": "ServiceSpecification"
+    }
+
+    
+]

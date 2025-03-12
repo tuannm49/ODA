@@ -1,0 +1,237 @@
+{
+    "id": "7655",
+    "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/productOffering/7655",
+    "name": "YOLO70",
+    "description": "",
+    "version": "2.1",
+    "validFor": {
+        "startDateTime": "2020-09-23T00:00:00Z",
+        "endDateTime": "2021-08-25T00:00:00Z"
+    },
+    "lastUpdate": "2020-09-27T00:00:00Z",
+    "lifecycleStatus": "Active",
+    "isBundle": false,
+    "isSellable": true,
+    "place": [
+    ],
+    "productOfferingCharacteristic": [
+        {
+            "name": "Ưu đãi gói cước",
+            "description": "Ưu đãi gói cước",
+            "valueType": "string",
+            "configurable": false,
+            "productOfferingCharacteristicValue": [
+                {
+                    "valueType": "string",
+                    "value": "1 GB data/ngày (hết dung lượng dừng truy cập)",
+                    "@type": "StringCharacteristicValueSpecification"
+                },
+                {
+                    "valueType": "String",
+                    "value": "Data truy cập ứng dụng MyTV Mobile",
+                    "@type": "StringCharacteristicValueSpecification"
+                }
+            ],
+            "@type": "ProductOfferingCharacteristic"
+        }
+    ],
+    "bundledGroupProductOfferingOption": {
+    },
+    "productSpecification": {
+        "id": "PS-1",
+        "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/productSpecification/9881",
+        "version": "1.1",
+        "name": "YOLO",
+        "@referredType": "ProductSpecification",
+        "@type": "ProductSpecificationRef"
+    },
+    "channel": [
+    ],
+    "serviceCandidate": {
+    },
+    "category": [
+        {
+            "id": "2646",
+            "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/category/2646",
+            "version": "2.0",
+            "name": "Gói cước di động",
+            "@referredType": "Category",
+            "@type": "CategoryRef"
+        }
+    ],
+    "resourceCandidate": {
+    },
+    "productOfferingTerm": [
+        {
+            "name": "Thuê bao trả trước VinaPhone đang hoạt động 2 chiều",
+            "description": "Thuê bao trả trước VinaPhone đang hoạt động 2 chiều (không nợ đọng, tạm ngưng, hủy, khóa 1 chiều/2 chiều)",
+            "validFor": {
+                "startDateTime": "2020-09-23T00:00:00Z",
+                "endDateTime": "2021-09-23T00:00:00Z"
+            },
+            "@type": "ProductOfferingTerm"
+        }
+    ],
+    "productOfferingPrice": [
+    { 
+        "id": "1747", 
+        "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/productOfferingPrice/1747", 
+        "name": "Recurring Monthly Price for Business Firewall", 
+        "@referredType": 
+        "ProductOfferingPrice", "@type": "ProductOfferingPrice"
+    }
+    ],
+    "agreement": [
+    ],
+    "attachment": [
+    ],
+    "marketSegment": [
+    ],
+    "bundledProductOffering": [],
+    "productOfferingRelationship": [
+    ],
+    "prodSpecCharValueUse": [
+        {
+            "name": "1 GB data/ngày (hết dung lượng dừng truy cập)",
+            "id": "Char1",
+            "description": "",
+            "valueType": "string",
+            "configurable": false,
+            "validFor": {
+                "startDateTime": "2017-08-12T00:00:00.000Z",
+                "endDateTime": "2021-03-07T00:00:00.000Z"
+            },
+            "minCardinality": 0,
+            "maxCardinality": 1,
+            "isUnique": true,
+            "regex": "",
+            "extensible": false,
+            "characteristicValueSpecification": [
+                {
+                    "valueType": "integer",
+                    "unitOfMeasure": "GB",
+                    "value": 1,
+                    "isDefault": true,
+                    "validFor": {
+                        "startDateTime": "00:00:00Z",
+                        "endDateTime": "23:59:59Z"
+                    },
+                    "@type": "IntergerCharacteristicValueSpecification",
+                    "@baseType": "",
+                    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                }
+            ],
+            "charSpecRelationship": [],
+            "productSpecification": {
+                "id": "PS-1",
+                "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/productSpecification/9881",
+                "version": "1.1",
+                "name": "Robotics999",
+                "@referredType": "ProductSpecification",
+                "@type": "ProductSpecificationRef"
+                
+            },
+            "@type": "ProductSpecificationCharacteristicValueUse",
+            "@baseType": "",
+            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/ProductSpecificationCharacteristicValueUse.schema.json"
+        },
+        {
+            "name": "Thời gian sử dụng",
+            "id": "Char4",
+            "description": "",
+            "valueType": "string",
+            "configurable": true,
+            "validFor": {
+                "startDateTime": "2017-08-12T00:00:00.000Z",
+                "endDateTime": "2021-03-07T00:00:00.000Z"
+            },
+            "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+            "minCardinality": 0,
+            "maxCardinality": 1,
+            "isUnique": true,
+            "regex": "",
+            "extensible": false,
+            "characteristicValueSpecification": [
+                {
+                    "valueType": "integer",
+                    "unitOfMeasure": "Day",
+                    "value": 15,
+                    "isDefault": false,
+                    "validFor": {
+                        "startDateTime": "00:00:00Z",
+                        "endDateTime": "23:59:59Z"
+                    },
+                    "@type": "IntergerCharacteristicValueSpecification",
+                    "@baseType": "",
+                    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                },
+                {
+                    "valueType": "integer",
+                    "unitOfMeasure": "Day",
+                    "value": 30,
+                    "isDefault": false,
+                    "validFor": {
+                        "startDateTime": "00:00:00Z",
+                        "endDateTime": "23:59:59Z"
+                    },
+                    "@type": "IntergerCharacteristicValueSpecification",
+                    "@baseType": "",
+                    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                },
+                {
+                    "valueType": "integer",
+                    "unitOfMeasure": "Day",
+                    "value": 90,
+                    "isDefault": false,
+                    "validFor": {
+                        "startDateTime": "00:00:00Z",
+                        "endDateTime": "23:59:59Z"
+                    },
+                    "@type": "IntergerCharacteristicValueSpecification",
+                    "@baseType": "",
+                    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                },
+                {
+                    "valueType": "integer",
+                    "unitOfMeasure": "Day",
+                    "value": 180,
+                    "isDefault": false,
+                    "validFor": {
+                        "startDateTime": "00:00:00Z",
+                        "endDateTime": "23:59:59Z"
+                    },
+                    "@type": "IntergerCharacteristicValueSpecification",
+                    "@baseType": "",
+                    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                },
+                {
+                    "valueType": "integer",
+                    "unitOfMeasure": "Day",
+                    "value": 360,
+                    "isDefault": false,
+                    "validFor": {
+                        "startDateTime": "00:00:00Z",
+                        "endDateTime": "23:59:59Z"
+                    },
+                    "@type": "IntergerCharacteristicValueSpecification",
+                    "@baseType": "",
+                    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                }
+            ],
+            "charSpecRelationship": [],
+            "productSpecification": {
+                "id": "PS-1",
+                "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/productSpecification/9881",
+                "version": "1.1",
+                "name": "Robotics999",
+                "@referredType": "ProductSpecification",
+                "@type": "ProductSpecificationRef"
+            },
+            "@type": "ProductSpecificationCharacteristicValueUse",
+            "@baseType": "",
+            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/ProductSpecificationCharacteristicValueUse.schema.json"
+        }
+    ],
+    "@type": "ProductOffering"
+}
+

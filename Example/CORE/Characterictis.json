@@ -1,0 +1,247 @@
+[
+    {
+        "name": "Dung lượng data",
+        "id": "CS-1",
+        "description": "",
+        "valueType": "string",
+        "configurable": false,
+        "validFor": {
+            "startDateTime": "2017-08-12T00:00:00.000Z",
+            "endDateTime": "2021-03-07T00:00:00.000Z"
+        },
+        "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+        "minCardinality": 0,
+        "maxCardinality": 1,
+        "isUnique": true,
+        "regex": "",
+        "extensible": false,
+        "characteristicValueSpecification": [
+            {
+                "valueType": "number",
+                "unitOfMeasure": "GB",
+                "value": 1,
+                "isDefault": true,
+                "validFor": {
+                    "startDateTime": "00:00:00Z",
+                    "endDateTime": "23:59:59Z"
+                },
+                "@type": "NumberCharacteristicValueSpecification",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+            },
+            {
+                "valueType": "number",
+                "unitOfMeasure": "GB",
+                "value": 1.5,
+                "isDefault": true,
+                "validFor": {
+                    "startDateTime": "00:00:00Z",
+                    "endDateTime": "23:59:59Z"
+                },
+                "@type": "NumberCharacteristicValueSpecification",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+            },
+            {
+                "valueType": "number",
+                "unitOfMeasure": "GB",
+                "value": 7,
+                "isDefault": true,
+                "validFor": {
+                    "startDateTime": "00:00:00Z",
+                    "endDateTime": "23:59:59Z"
+                },
+                "@type": "NumberCharacteristicValueSpecification",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+            }
+        ],
+        "charSpecRelationship": [],
+        "@type": "CharacteristicSpecification",
+        "@baseType": "",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicSpecification.schema.json"
+    },
+    {
+        "name": "Miễn phí dung lượng data",
+        "id": "CS-2",
+        "description": "",
+        "valueType": "string",
+        "configurable": false,
+        "validFor": {
+            "startDateTime": "2017-08-12T00:00:00.000Z",
+            "endDateTime": "2021-03-07T00:00:00.000Z"
+        },
+        "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+        "minCardinality": 0,
+        "maxCardinality": 1,
+        "isUnique": true,
+        "regex": "",
+        "extensible": false,
+        "characteristicValueSpecification": [
+            {
+                "valueType": "string",
+                "value": "Tiktok",
+                "isDefault": true,
+                "validFor": {
+                    "startDateTime": "00:00:00Z",
+                    "endDateTime": "23:59:59Z"
+                },
+                "@type": "StringCharacteristicValueSpecification",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+            },
+            {
+                "valueType": "string",
+                "value": "Facebook",
+                "isDefault": true,
+                "validFor": {
+                    "startDateTime": "00:00:00Z",
+                    "endDateTime": "23:59:59Z"
+                },
+                "@type": "StringCharacteristicValueSpecification",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+            },
+            {
+                "valueType": "string",
+                "value": "MyTV Mobile",
+                "isDefault": true,
+                "validFor": {
+                    "startDateTime": "00:00:00Z",
+                    "endDateTime": "23:59:59Z"
+                },
+                "@type": "StringCharacteristicValueSpecification",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+            },
+            {
+                "valueType": "string",
+                "value": "Facebook",
+                "isDefault": true,
+                "validFor": {
+                    "startDateTime": "00:00:00Z",
+                    "endDateTime": "23:59:59Z"
+                },
+                "@type": "StringCharacteristicValueSpecification",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+            },
+            {
+                "valueType": "string",
+                "value": "MyTV add-on VTVCAB",
+                "isDefault": true,
+                "validFor": {
+                    "startDateTime": "00:00:00Z",
+                    "endDateTime": "23:59:59Z"
+                },
+                "@type": "StringCharacteristicValueSpecification",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+            },
+            {
+                "valueType": "string",
+                "value": "BookReavol",
+                "isDefault": true,
+                "validFor": {
+                    "startDateTime": "00:00:00Z",
+                    "endDateTime": "23:59:59Z"
+                },
+                "@type": "StringCharacteristicValueSpecification",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+            }
+        ],
+        "charSpecRelationship": [],
+        "@type": "CharacteristicSpecification",
+        "@baseType": "",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicSpecification.schema.json"
+    },
+    {
+        "name": "Thời gian sử dụng",
+        "id": "CS-1",
+        "description": "",
+        "valueType": "string",
+        "configurable": false,
+        "validFor": {
+            "startDateTime": "2017-08-12T00:00:00.000Z",
+            "endDateTime": "2021-03-07T00:00:00.000Z"
+        },
+        "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+        "minCardinality": 0,
+        "maxCardinality": 1,
+        "isUnique": true,
+        "regex": "",
+        "extensible": false,
+        "characteristicValueSpecification": [
+            {
+                "valueType": "integer",
+                "unitOfMeasure": "Day",
+                "value": 15,
+                "isDefault": false,
+                "validFor": {
+                    "startDateTime": "00:00:00Z",
+                    "endDateTime": "23:59:59Z"
+                },
+                "@type": "IntergerCharacteristicValueSpecification",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+            },
+            {
+                "valueType": "integer",
+                "unitOfMeasure": "Day",
+                "value": 30,
+                "isDefault": false,
+                "validFor": {
+                    "startDateTime": "00:00:00Z",
+                    "endDateTime": "23:59:59Z"
+                },
+                "@type": "IntergerCharacteristicValueSpecification",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+            },
+            {
+                "valueType": "integer",
+                "unitOfMeasure": "Day",
+                "value": 90,
+                "isDefault": false,
+                "validFor": {
+                    "startDateTime": "00:00:00Z",
+                    "endDateTime": "23:59:59Z"
+                },
+                "@type": "IntergerCharacteristicValueSpecification",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+            },
+            {
+                "valueType": "integer",
+                "unitOfMeasure": "Day",
+                "value": 180,
+                "isDefault": false,
+                "validFor": {
+                    "startDateTime": "00:00:00Z",
+                    "endDateTime": "23:59:59Z"
+                },
+                "@type": "IntergerCharacteristicValueSpecification",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+            },
+            {
+                "valueType": "integer",
+                "unitOfMeasure": "Day",
+                "value": 360,
+                "isDefault": false,
+                "validFor": {
+                    "startDateTime": "00:00:00Z",
+                    "endDateTime": "23:59:59Z"
+                },
+                "@type": "IntergerCharacteristicValueSpecification",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+            }
+        ],
+        "charSpecRelationship": [],
+        "@type": "CharacteristicSpecification",
+        "@baseType": "",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicSpecification.schema.json"
+    }
+]

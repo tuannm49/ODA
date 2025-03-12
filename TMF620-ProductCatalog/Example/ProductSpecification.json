@@ -1,0 +1,195 @@
+[{
+    "id": "1",
+    "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/productSpecification/9881",
+    "name": "YOLO80T",
+    "description": "YOLO80T",
+    "isBundle": true,
+    "lastUpdate": "2020-09-23T16:42:23Z",
+    "lifecycleStatus": "Active",
+    "validFor": {
+        "startDateTime": "2020-09-23T00:00:00Z",
+        "endDateTime": "2022-11-24T16:42:23Z"
+    },
+    "version": "2.0",
+    "relatedParty": [
+    ],
+    "attachment": [
+    ],
+    "bundledProductSpecification": [
+        {
+            "id": "2",
+            "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/productSpecification/15",
+            "name": "Miễn phí data truy cập các ứng dụng TikTok, MyTV Mobile",
+            "@type": "BundledProductSpecification",
+            "@baseType": "",
+            "lifecycleStatus": "Active"
+        }
+    ],
+    "productSpecificationRelationship": [
+    ],
+    "serviceSpecification": [
+        {
+            "id": "22",
+            "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v5/serviceSpecification/22",
+            "name": "Firewall",
+            "version": "1.0",
+            "@referredType": "ServiceSpecification",
+            "@type": "ServiceSpecificationRef"
+        }
+    ],
+    "resourceSpecification": [
+    ],
+    "productSpecCharacteristic": [
+        {
+            "name": "Ưu đãi gói cước",
+            "description": "Ưu đãi gói cước",
+            "valueType": "String",
+            "configurable": true,
+            "minCardinality": 1,
+            "maxCardinality": 1,
+            "isUnique": true,
+            "@type": "CharacteristicSpecification",
+            "characteristicValueSpecification": [
+                {
+                    "isDefault": true,
+                    "valueType": "String",
+                    "validFor": {
+                        "startDateTime": "2020-09-23T00:00:00Z",
+                        "endDateTime": "2022-11-24T00:00:00Z"
+                    },
+                    "value": "1 GB data/ngày (hết dung lượng dừng truy cập)",
+                    "@type": "StringCharacteristicValueSpecification"
+                },
+                {
+                    "isDefault": false,
+                    "valueType": "String",
+                    "validFor": {
+                        "startDateTime": "2020-09-23T00:00:00Z",
+                        "endDateTime": "2022-11-24T00:00:00Z"
+                    },
+                    "value": "Miễn phí Data truy cập ứng dụng TikTok, MyTV Mobile",
+                    "@type": "StringCharacteristicValueSpecification"
+                }
+                
+            ],
+            "validFor": {
+                "startDateTime": "2020-09-23T16:42:23Z"
+            }
+        },
+        {
+            "name": "Chu kỳ",
+            "description": "Chu kỳ gói cước",
+            "valueType": "string",
+            "configurable": true,
+            "minCardinality": 1,
+            "maxCardinality": 1,
+            "extensible": true,
+            "isUnique": true,
+            "@type": "CharacteristicSpecification",
+            "characteristicValueSpecification": [
+                {
+                    "isDefault": true,
+                    "valueType": "string",
+                    "value": "30 Ngày",
+                    "@type": "StringCharacteristicValueSpecification"
+                },
+                {
+                    "isDefault": false,
+                    "valueType": "string",
+                    "value": "90 Ngày",
+                    "@type": "StringCharacteristicValueSpecification"
+                },
+                {
+                    "isDefault": false,
+                    "valueType": "string",
+                    "value": "180 Ngày",
+                    "@type": "StringCharacteristicValueSpecification"
+                },
+                {
+                    "isDefault": false,
+                    "valueType": "string",
+                    "value": "360 Ngày",
+                    "@type": "StringCharacteristicValueSpecification"
+                }
+            ],
+            "validFor": {
+                "startDateTime": "2020-09-23T16:42:23Z"
+            }
+        }
+    ],
+    "@type": "ProductSpecification"
+},
+{
+    "id": "2",
+    "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/productSpecification/9881",
+    "name": "Miễn phí data truy cập các ứng dụng TikTok, MyTV Mobile",
+    "description": "Miễn phí data truy cập các ứng dụng TikTok, MyTV Mobile",
+    "isBundle": true,
+    "lastUpdate": "2020-09-23T16:42:23Z",
+    "lifecycleStatus": "Active",
+    "validFor": {
+        "startDateTime": "2020-09-23T00:00:00Z",
+        "endDateTime": "2022-11-24T16:42:23Z"
+    },
+    "version": "2.0",
+    "relatedParty": [
+    ],
+    "attachment": [
+    ],
+    "bundledProductSpecification": [
+    ],
+    "productSpecificationRelationship": [
+    ],
+    "serviceSpecification": [
+        {
+            "id": "22",
+            "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v5/serviceSpecification/22",
+            "name": "Firewall",
+            "version": "1.0",
+            "@referredType": "ServiceSpecification",
+            "@type": "ServiceSpecificationRef"
+        }
+    ],
+    "resourceSpecification": [
+    ],
+    "productSpecCharacteristic": [
+        {
+            "name": "Ưu đãi gói cước",
+            "description": "Ưu đãi gói cước",
+            "valueType": "String",
+            "configurable": true,
+            "minCardinality": 1,
+            "maxCardinality": 1,
+            "isUnique": true,
+            "@type": "CharacteristicSpecification",
+            "characteristicValueSpecification": [
+                {
+                    "isDefault": true,
+                    "valueType": "String",
+                    "validFor": {
+                        "startDateTime": "2020-09-23T00:00:00Z",
+                        "endDateTime": "2022-11-24T00:00:00Z"
+                    },
+                    "value": "Miễn phí data truy cập các ứng dụng TikTok",
+                    "@type": "StringCharacteristicValueSpecification"
+                },
+                {
+                    "isDefault": false,
+                    "valueType": "String",
+                    "validFor": {
+                        "startDateTime": "2020-09-23T00:00:00Z",
+                        "endDateTime": "2022-11-24T00:00:00Z"
+                    },
+                    "value": "Miễn phí Data truy cập ứng dụng MyTV Mobile",
+                    "@type": "StringCharacteristicValueSpecification"
+                }
+                
+            ],
+            "validFor": {
+                "startDateTime": "2020-09-23T16:42:23Z"
+            }
+        }
+    ],
+    "@type": "ProductSpecification"
+}
+]

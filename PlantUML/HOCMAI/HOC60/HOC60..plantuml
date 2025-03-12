@@ -1,0 +1,25 @@
+@startyaml
+!theme plain
+PO_Code: 6HOC60
+Mobile Line (PS):
+    Mobile Basic Plan (CFS):
+        4G Mobile Line (RFS):
+            - 4G Logical SIM (LR)
+            - HSS Subscriber Profile (LR)
+        5G Mobile Line (RFS):
+            5G Logical SIM (LR):
+                - UDM/UDR Profile (LR)
+                - PCF Profile (LR)
+        Mobile Unified Package (RFS):
+            - PCRF Profile (LR)
+            - PCF Profile (LR)
+        Characteristic:
+            BeautyNumber: 
+                msisdn:84915043333
+            Data:
+                dataVolume: 60 GB
+                dataVolumePerDay: 2 GB
+                freeIP: Youtube/Tiktok
+    VAS (CFS):
+        - License Hoc mai
+@enduml
