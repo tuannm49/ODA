@@ -12,37 +12,6 @@
     "status": true,
     "version": "1",
     "sections": [
-        {
-            "id": "CS-1",
-            "name": "LayoutSection 1",
-            "layoutType":"I",
-            "description": "",
-            "items": [
-                {
-                    "id":"CS-1",
-                    "name": "DataVolume",
-                    "title": "Dung lượng data",
-                    "dataType": "number",
-                    "ctlType": "COMBOBOX",
-                    "validateRules": ["REQUIRED"]
-                },{
-                    "id":"CS-2",
-                    "name": "FreeDataVolume",
-                    "title": "Miễn phí dung lượng data",
-                    "dataType": "number",
-                    "ctlType": "COMBOBOX",
-                    "validateRules": ["REQUIRED"]
-                },{
-                    "id":"CS-3",
-                    "name": "Period",
-                    "title": "Thời gian sử dụng",
-                    "dataType": "integer",
-                    "ctlType": "COMBOBOX",
-                    "validateRules": ["REQUIRED"]
-                }
-            ],
-            "@type": "LayoutSection"
-        }
     ],
     "attributes": [
         {

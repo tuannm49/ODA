@@ -77,8 +77,8 @@
         "id": "1747", 
         "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v5/productOfferingPrice/1747", 
         "name": "Recurring Monthly Price for Business Firewall", 
-        "@referredType": 
-        "ProductOfferingPrice", "@type": "ProductOfferingPrice"
+        "@referredType": "ProductOfferingPrice",
+        "@type": "ProductOfferingPrice"
     }
     ],
     "agreement": [

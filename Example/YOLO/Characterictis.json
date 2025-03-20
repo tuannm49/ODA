@@ -254,54 +254,7 @@
         "isUnique": true,
         "@type": "CharacteristicSpecification",
         "characteristicValueSpecification": [
-            {
-                "valueType": "integer",
-                "value": 1024000,
-                "isDefault": false,
-                "validFor": {
-                    "startDateTime": "00:00:00Z",
-                    "endDateTime": "23:59:59Z"
-                },
-                "@type": "IntergerCharacteristicValueSpecification",
-                "@baseType": "",
-                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
-            },
-            {
-                "valueType": "integer",
-                "value": 1536000,
-                "isDefault": false,
-                "validFor": {
-                    "startDateTime": "00:00:00Z",
-                    "endDateTime": "23:59:59Z"
-                },
-                "@type": "IntergerCharacteristicValueSpecification",
-                "@baseType": "",
-                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
-            },
-            {
-                "valueType": "integer",
-                "value": 5120000,
-                "isDefault": false,
-                "validFor": {
-                    "startDateTime": "00:00:00Z",
-                    "endDateTime": "23:59:59Z"
-                },
-                "@type": "IntergerCharacteristicValueSpecification",
-                "@baseType": "",
-                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
-            },
-            {
-                "valueType": "integer",
-                "value": 7168000,
-                "isDefault": false,
-                "validFor": {
-                    "startDateTime": "00:00:00Z",
-                    "endDateTime": "23:59:59Z"
-                },
-                "@type": "IntergerCharacteristicValueSpecification",
-                "@baseType": "",
-                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
-            }
+            
         ]
     },
     {
