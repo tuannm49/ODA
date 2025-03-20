@@ -1,0 +1,55 @@
+{
+    "id": "PS-1",
+    "name": "Mobile Line",
+    "brand": "",
+    "productNumber": "",
+    "description": "",
+    "isBundle": true,
+    "lastUpdate": "2020-09-23T16:42:23Z",
+    "lifecycleStatus": "Active",
+    "validFor": {
+        "startDateTime": "2020-09-23T00:00:00Z",
+        "endDateTime": "2022-11-24T16:42:23Z"
+    },
+    "version": "2.0",
+    "relatedParty": [
+    ],
+    "attachment": [
+    ],
+    "bundledProductSpecification": [
+    ],
+    "productSpecificationRelationship": [
+    ],
+    "serviceSpecification": [
+        {
+            "id": "CFS-1",
+            "name": "Mobile Basic Plan",
+            "version": "1.0",
+            "@type": "CustomerFacingServiceSpecificationRef",
+            "@referredType": "CustomerFacingServiceSpecification",
+            "@baseType": "ServiceSpecificationRef"
+        },
+        {
+            "id": "CFS-2",
+            "name": "Voice Mail",
+            "version": "1.0",
+            "@type": "CustomerFacingServiceSpecificationRef",
+            "@referredType": "CustomerFacingServiceSpecification",
+            "@baseType": "ServiceSpecificationRef"
+        },
+        {
+            "id": "CFS-3",
+            "name": "VAS",
+            "version": "1.0",
+            "@type": "CustomerFacingServiceSpecificationRef",
+            "@referredType": "CustomerFacingServiceSpecification",
+            "@baseType": "ServiceSpecificationRef"
+        }
+    ],
+    "resourceSpecification": [
+    ],
+    "productSpecCharacteristic": [
+        
+    ],
+    "@type": "ProductSpecification"
+}
