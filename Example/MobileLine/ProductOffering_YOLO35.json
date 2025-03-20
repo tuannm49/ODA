@@ -13,7 +13,27 @@
     "isBundle": false,
     "isSellable": true,
     "place": [],
-    "productOfferingCharacteristic": [],
+    "productOfferingCharacteristic": [
+        {
+            "name": "Ưu đãi gói cước",
+            "description": "Ưu đãi gói cước",
+            "valueType": "string",
+            "configurable": false,
+            "productOfferingCharacteristicValue": [
+                {
+                    "valueType": "string",
+                    "value": "1 GB data/ngày (hết dung lượng dừng truy cập)",
+                    "@type": "StringCharacteristicValueSpecification"
+                },
+                {
+                    "valueType": "String",
+                    "value": "Data truy cập ứng dụng MyTV Mobile",
+                    "@type": "StringCharacteristicValueSpecification"
+                }
+            ],
+            "@type": "ProductOfferingCharacteristic"
+        }
+    ],
     "bundledGroupProductOfferingOption": {},
     "productSpecification": {
         "id": "PS-1",
