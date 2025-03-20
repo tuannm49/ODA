@@ -1,0 +1,211 @@
+[
+    {
+        "id": "LR-1",
+        "name": "4G Logical SIM",
+        "category": "Mobile Logical Resource",
+        "description": "",
+        "isBundle": false,
+        "lifecycleStatus": "Active",
+        "validFor": {
+            "startDateTime": "2017-08-12T00:00:00.000Z",
+            "endDateTime": "2018-03-07T00:00:00.000Z"
+        },
+        "relatedParty": [],
+        "version": "3.2",
+        "resourceSpecCharacteristic": [],
+        "resourceSpecRelationship": [],
+        "attachment": [],
+        "lastUpdate": "2017-08-09T00:00:00.000Z",
+        "href": "https://mycsp.com:8080/tmf-api/resourceCatalog/v5/resourceSpecification/42",
+        "@type": "LogicalResourceSpecification",
+        "@baseType": "ResourceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecification.schema.json"
+    },
+    {
+        "id": "LR-2",
+        "name": "HSS Subscriber Profile",
+        "category": "Mobile Logical Resource",
+        "description": "",
+        "isBundle": false,
+        "lifecycleStatus": "Active",
+        "validFor": {
+            "startDateTime": "2017-08-12T00:00:00.000Z",
+            "endDateTime": "2018-03-07T00:00:00.000Z"
+        },
+        "relatedParty": [],
+        "version": "3.2",
+        "resourceSpecCharacteristic": [],
+        "resourceSpecRelationship": [],
+        "attachment": [],
+        "lastUpdate": "2017-08-09T00:00:00.000Z",
+        "href": "https://mycsp.com:8080/tmf-api/resourceCatalog/v5/resourceSpecification/42",
+        "@type": "LogicalResourceSpecification",
+        "@baseType": "ResourceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecification.schema.json"
+    },
+    {
+        "id": "LR-3",
+        "name": "5G Logical SIM",
+        "category": "Mobile Logical Resource",
+        "description": "",
+        "isBundle": false,
+        "lifecycleStatus": "Active",
+        "validFor": {
+            "startDateTime": "2017-08-12T00:00:00.000Z",
+            "endDateTime": "2018-03-07T00:00:00.000Z"
+        },
+        "relatedParty": [],
+        "version": "3.2",
+        "resourceSpecCharacteristic": [],
+        "resourceSpecRelationship": [
+            {
+                "relationshipType": "dependency",
+                "role": "dependent",
+                "id": "LR-6",
+                "name": "UDM/UDR Profile",
+                "validFor": {
+                    "startDateTime": "2017-08-25T00:00:00.000Z",
+                    "endDateTime": "2021-03-25T00:00:00.000Z"
+                },
+                "@referredType": "ResourceFacingServiceSpecification",
+                "@type": "ResourceSpecRelationship",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/ServiceSpecRelationship.schema.json"
+            },
+            {
+                "relationshipType": "dependency",
+                "role": "dependent",
+                "id": "LR-7",
+                "name": "PCF Profile",
+                "validFor": {
+                    "startDateTime": "2017-08-25T00:00:00.000Z",
+                    "endDateTime": "2021-03-25T00:00:00.000Z"
+                },
+                "@referredType": "ResourceFacingServiceSpecification",
+                "@type": "ResourceSpecRelationship",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/ServiceSpecRelationship.schema.json"
+            }
+        ],
+        "attachment": [],
+        "lastUpdate": "2017-08-09T00:00:00.000Z",
+        "href": "https://mycsp.com:8080/tmf-api/resourceCatalog/v5/resourceSpecification/42",
+        "@type": "LogicalResourceSpecification",
+        "@baseType": "ResourceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecification.schema.json"
+    },
+    {
+        "id": "LR-6",
+        "name": "UDM/UDR Profile",
+        "category": "Mobile Logical Resource",
+        "description": "",
+        "isBundle": false,
+        "lifecycleStatus": "Active",
+        "validFor": {
+            "startDateTime": "2017-08-12T00:00:00.000Z",
+            "endDateTime": "2018-03-07T00:00:00.000Z"
+        },
+        "relatedParty": [],
+        "version": "3.2",
+        "resourceSpecCharacteristic": [],
+        "resourceSpecRelationship": [
+            
+        ],
+        "attachment": [],
+        "lastUpdate": "2017-08-09T00:00:00.000Z",
+        "href": "https://mycsp.com:8080/tmf-api/resourceCatalog/v5/resourceSpecification/42",
+        "@type": "LogicalResourceSpecification",
+        "@baseType": "ResourceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecification.schema.json"
+    },
+    {
+        "id": "LR-7",
+        "name": "PCF Profile",
+        "category": "Mobile Logical Resource",
+        "description": "",
+        "isBundle": false,
+        "lifecycleStatus": "Active",
+        "validFor": {
+            "startDateTime": "2017-08-12T00:00:00.000Z",
+            "endDateTime": "2018-03-07T00:00:00.000Z"
+        },
+        "relatedParty": [],
+        "version": "3.2",
+        "resourceSpecCharacteristic": [],
+        "resourceSpecRelationship": [],
+        "attachment": [],
+        "lastUpdate": "2017-08-09T00:00:00.000Z",
+        "href": "https://mycsp.com:8080/tmf-api/resourceCatalog/v5/resourceSpecification/42",
+        "@type": "LogicalResourceSpecification",
+        "@baseType": "ResourceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecification.schema.json"
+    },
+    {
+        "id": "LR-8",
+        "name": "PCRF Profile",
+        "category": "Mobile Logical Resource",
+        "description": "",
+        "isBundle": false,
+        "lifecycleStatus": "Active",
+        "validFor": {
+            "startDateTime": "2017-08-12T00:00:00.000Z",
+            "endDateTime": "2018-03-07T00:00:00.000Z"
+        },
+        "relatedParty": [],
+        "version": "3.2",
+        "resourceSpecCharacteristic": [],
+        "resourceSpecRelationship": [],
+        "attachment": [],
+        "lastUpdate": "2017-08-09T00:00:00.000Z",
+        "href": "https://mycsp.com:8080/tmf-api/resourceCatalog/v5/resourceSpecification/42",
+        "@type": "LogicalResourceSpecification",
+        "@baseType": "ResourceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecification.schema.json"
+    },
+    
+    {
+        "id": "LR-10",
+        "name": "VMS Profile",
+        "category": "Mobile Logical Resource",
+        "description": "",
+        "isBundle": false,
+        "lifecycleStatus": "Active",
+        "validFor": {
+            "startDateTime": "2017-08-12T00:00:00.000Z",
+            "endDateTime": "2018-03-07T00:00:00.000Z"
+        },
+        "relatedParty": [],
+        "version": "3.2",
+        "resourceSpecCharacteristic": [],
+        "resourceSpecRelationship": [],
+        "attachment": [],
+        "lastUpdate": "2017-08-09T00:00:00.000Z",
+        "href": "https://mycsp.com:8080/tmf-api/resourceCatalog/v5/resourceSpecification/42",
+        "@type": "LogicalResourceSpecification",
+        "@baseType": "ResourceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecification.schema.json"
+    },
+    
+    {
+        "id": "LR-13",
+        "name": "eSIM Profile",
+        "category": "Mobile Logical Resource",
+        "description": "",
+        "isBundle": false,
+        "lifecycleStatus": "Active",
+        "validFor": {
+            "startDateTime": "2017-08-12T00:00:00.000Z",
+            "endDateTime": "2018-03-07T00:00:00.000Z"
+        },
+        "relatedParty": [],
+        "version": "3.2",
+        "resourceSpecCharacteristic": [],
+        "resourceSpecRelationship": [],
+        "attachment": [],
+        "lastUpdate": "2017-08-09T00:00:00.000Z",
+        "href": "https://mycsp.com:8080/tmf-api/resourceCatalog/v5/resourceSpecification/42",
+        "@type": "LogicalResourceSpecification",
+        "@baseType": "ResourceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/ResourceSpecification.schema.json"
+    }
+]
