@@ -1,0 +1,22 @@
+@startyaml
+!theme plain
+
+Quản lý  cấu hình Form động:
+    Table properties Form:
+        - Object page
+        - Array page
+Quản lý OpenAPI:
+    API Invoker:
+       - Tổ chức lại cấu trúc code ( tách các dto dùng chung, dto dùng riêng cho các TMF API)
+Quản lý Simulator:
+    - Giả lập dữ liệu trả về thông qua event ( Kafka) 
+Devops:
+    - Triển khai các service trên môi trường K8s
+Đào tạo, Tuyển dụng:
+    - Phối hợp với ban nhân sự phỏng vấn các ứng viên 
+Quản lý thuộc tính ObjecType: 
+    - chuyển qua test
+Triển khai Lowcode:
+    - Xin cấp hạ tầng
+    - Triển khai quy trình động ( n8n) trên môi trường k8s
+@endyaml

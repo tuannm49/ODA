@@ -1,0 +1,59 @@
+@startyaml
+!theme plain
+
+Quản lý cấu hình Form động --> Tuấn, Nam:
+    - Search Filter
+    - Modal Table Form
+    - Table properties Form
+    - Rule Form
+Quản lý thuộc tính ObjectType --> Tuấn, Nam:
+    - Quản lý cấu hình Characteristic
+    - Quản lý PickList
+Quản lý TMF OpenAPI --> Hiếu:
+    - Xây dựng OpenAPI theo chuẩn TMF 630
+    - API Validation
+    - API Author
+    - API Event
+    - API Invoker
+Quản lý Simulator --> Bách:
+    - API Giả lập dữ liệu trả về theo kịch bản
+    - Giả lập dữ liệu trả về thông qua event ( Kafka)
+Devops --> Chiến, Dũng:
+    - Đào tạo, Tuyển dụng
+Tích hợp Service Activation --> Tuấn, Dũng:
+    - Tích hợp BNM
+    - Tích hợp SPI
+    - Xây dựng invoker
+Capture Data Change(CDC) -> Hiếu, Chiến:
+    - Xây dựng data Model
+    - Xây dựng CDC
+    - Xây dựng CDC Event
+MicroFrontend --> Dũng:
+    - Xây dựng Framework MicroFrontend
+    - Share component
+    - Share state
+    - Share service
+    - Share style
+    - Share route
+    - Share layout
+Quản lý location --> Bách:
+    - Search location
+    - Create location
+    - Update location
+    - Delete location
+SOM - Quản lý yêu cầu dịch vụ --> Tuấn, Dũng:
+    - Phân rã yêu cầu tài nguyên di động
+    - Phân rã yêu cầu tài nguyên BRCD
+    - Phân rã yêu cầu tài nguyên khác
+ROM - Quản lý yêu cầu tài nguyên --> Tuấn, Dũng:
+    - Kích hoạt yêu cầu tài nguyên di động
+    - Kích hoạt yêu cầu tài nguyên BRCD
+    - Kích hoạt yêu cầu tài nguyên khác
+Triển khai Lowcode --> Tuấn, Dũng:
+    - Xin cấp hạ tầng
+    - Dựng hệ thống
+    - Thử nghiệm
+    - Tích hợp với ODA
+Triển khai ODA Canvas :
+    - 
+@endyaml
