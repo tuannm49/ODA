@@ -835,6 +835,84 @@
         "version": "3.2",
         "resourceSpecCharacteristic": [
             {
+                "name": "cycleCount",
+                "id": "Char-20",
+                "description": "",
+                "valueType": "integer",
+                "configurable": false,
+                "validFor": {
+                    "startDateTime": "2017-08-12T00:00:00.000Z",
+                    "endDateTime": "2021-03-07T00:00:00.000Z"
+                },
+                "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+                "minCardinality": 0,
+                "maxCardinality": 1,
+                "isUnique": true,
+                "regex": "",
+                "extensible": false,
+                "characteristicValueSpecification": [
+                    {
+                        "valueType": "integer",
+                        "unitOfMeasure": "Month",
+                        "value": 1,
+                        "isDefault": true,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "IntegerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                    ,
+                    {
+                        "valueType": "integer",
+                        "unitOfMeasure": "Month",
+                        "value": 2,
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "IntegerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                    ,
+                    {
+                        "valueType": "integer",
+                        "unitOfMeasure": "Month",
+                        "value": 4,
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "IntegerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                    ,
+                    {
+                        "valueType": "integer",
+                        "unitOfMeasure": "Month",
+                        "value": 6,
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "IntegerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                ],
+                "charSpecRelationship": [],
+                "@type": "CharacteristicSpecification",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicSpecification.schema.json"
+            },
+            {
                 "name": "dataVolume",
                 "id": "Char-13",
                 "description": "",
@@ -1079,6 +1157,84 @@
         "relatedParty": [],
         "version": "3.2",
         "resourceSpecCharacteristic": [
+            {
+                "name": "cycleCount",
+                "id": "Char-20",
+                "description": "",
+                "valueType": "integer",
+                "configurable": false,
+                "validFor": {
+                    "startDateTime": "2017-08-12T00:00:00.000Z",
+                    "endDateTime": "2021-03-07T00:00:00.000Z"
+                },
+                "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+                "minCardinality": 0,
+                "maxCardinality": 1,
+                "isUnique": true,
+                "regex": "",
+                "extensible": false,
+                "characteristicValueSpecification": [
+                    {
+                        "valueType": "integer",
+                        "unitOfMeasure": "Month",
+                        "value": 1,
+                        "isDefault": true,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "IntegerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                    ,
+                    {
+                        "valueType": "integer",
+                        "unitOfMeasure": "Month",
+                        "value": 2,
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "IntegerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                    ,
+                    {
+                        "valueType": "integer",
+                        "unitOfMeasure": "Month",
+                        "value": 4,
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "IntegerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                    ,
+                    {
+                        "valueType": "integer",
+                        "unitOfMeasure": "Month",
+                        "value": 6,
+                        "isDefault": false,
+                        "validFor": {
+                            "startDateTime": "00:00:00Z",
+                            "endDateTime": "23:59:59Z"
+                        },
+                        "@type": "IntegerCharacteristicValueSpecification",
+                        "@baseType": "",
+                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                    }
+                ],
+                "charSpecRelationship": [],
+                "@type": "CharacteristicSpecification",
+                "@baseType": "",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicSpecification.schema.json"
+            },
             {
                 "name": "dataVolume",
                 "id": "Char-13",

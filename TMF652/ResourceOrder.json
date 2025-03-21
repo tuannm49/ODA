@@ -1,0 +1,51 @@
+{
+    "id": "5130d5131a23",
+    "name": "7km Optical Cable for Acme Inc",
+    "category": "Premium",
+    "priority": 0,
+    "description": "7000m of Optical Cable",
+    "expectedCompletionDate": "2020-05-31T20:50:27.275Z",
+    "orderDate": "2020-03-31T20:50:27.275Z",
+    "requestedCompletionDate": "2020-03-31T19:50:43.214Z",
+    "requestedStartDate": "2020-03-31T19:50:43.214Z",
+    "startDate": "2020-03-31T19:50:43.214Z",
+    "externalReference": [
+    ],
+    "note": [
+    ],
+    "orderItem": [
+        {
+            "id": "049eb3108ed5",
+            "quantity": 7000,
+            "action": "add",
+            "appointment": {
+                "id": "74da513bdc6c",
+                "description": "Site Survey"
+            },
+            "resource": {
+                "category": "Premium",
+                "description": "LG Series: FAA-Compliant Loose Tube Cable - Double Jacket",
+                "name": "LG006-C5111N1",
+                "resourceVersion": "6",
+                "attachment": [
+                ],
+                "operationalState": "disable",
+                "place": {
+                },
+                "relatedParty": [
+                ],
+                "resourceSpecification": {
+                    "id": "e362d12b54f2",
+                    "name": "LG006-C5111N1",
+                    "version": "6"
+                },
+                "@baseType": "Resource",
+                "@type": "PhysicalResource"
+            },
+            "state": "acknowledged"
+        }
+    ],
+    "relatedParty": [
+    ],
+    "state": "acknowledged"
+}

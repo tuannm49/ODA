@@ -1,0 +1,21 @@
+@startyaml
+!theme plain
+
+Quản lý  cấu hình Form động:
+    Table properties Form:
+        - Object page
+        - Array page
+Quản lý OpenAPI:
+    API Invoker:
+       - Tổ chức lại cấu trúc code ( tách các dto dùng chung, dto dùng riêng cho các TMF API)
+Devops:
+    - Xin cấp bổ sung hạ tầng
+Đào tạo, Tuyển dụng:
+    - Phối hợp với ban nhân sự phỏng vấn các ứng viên 
+
+Triển khai Lowcode:
+    - Tích hợp thử 1 quy trình động với n8n
+Tiếp nhận chuyển giao:
+    - Tiếp nhập Policy rule từ team Inv
+    - Tiếp nhận Quản lý thuộc tính ObjectType từ team Inv
+@endyaml

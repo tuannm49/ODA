@@ -83,8 +83,90 @@
     "productOfferingRelationship": [],
     "prodSpecCharValueUse": [
         {
-            "name": "dataVolumePerDay",
+            "id": "Char-20",
+            "name": "cycleCount",
+            "description": "",
+            "valueType": "integer",
+            "configurable": false,
+            "validFor": {
+                "startDateTime": "2017-08-12T00:00:00.000Z",
+                "endDateTime": "2021-03-07T00:00:00.000Z"
+            },
+            "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+            "minCardinality": 0,
+            "maxCardinality": 1,
+            "isUnique": true,
+            "regex": "",
+            "extensible": false,
+            "characteristicValueSpecification": [
+                {
+                    "valueType": "integer",
+                    "unitOfMeasure": "Month",
+                    "value": 1,
+                    "isDefault": true,
+                    "validFor": {
+                        "startDateTime": "00:00:00Z",
+                        "endDateTime": "23:59:59Z"
+                    },
+                    "@type": "IntegerCharacteristicValueSpecification",
+                    "@baseType": "",
+                    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                },
+                {
+                    "valueType": "integer",
+                    "unitOfMeasure": "Month",
+                    "value": 2,
+                    "isDefault": false,
+                    "validFor": {
+                        "startDateTime": "00:00:00Z",
+                        "endDateTime": "23:59:59Z"
+                    },
+                    "@type": "IntegerCharacteristicValueSpecification",
+                    "@baseType": "",
+                    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                },
+                {
+                    "valueType": "integer",
+                    "unitOfMeasure": "Month",
+                    "value": 4,
+                    "isDefault": false,
+                    "validFor": {
+                        "startDateTime": "00:00:00Z",
+                        "endDateTime": "23:59:59Z"
+                    },
+                    "@type": "IntegerCharacteristicValueSpecification",
+                    "@baseType": "",
+                    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                },
+                {
+                    "valueType": "integer",
+                    "unitOfMeasure": "Month",
+                    "value": 6,
+                    "isDefault": false,
+                    "validFor": {
+                        "startDateTime": "00:00:00Z",
+                        "endDateTime": "23:59:59Z"
+                    },
+                    "@type": "IntegerCharacteristicValueSpecification",
+                    "@baseType": "",
+                    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                }
+            ],
+            "charSpecRelationship": [],
+            "productSpecification": {
+                "id": "PS-1",
+                "version": "1.1",
+                "name": "Mobile Line",
+                "@referredType": "ProductSpecification",
+                "@type": "ProductSpecificationRef"
+            },
+            "@type": "ProductSpecificationCharacteristicValueUse",
+            "@baseType": "",
+            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/ProductSpecificationCharacteristicValueUse.schema.json"
+        },
+        {
             "id": "Char-14",
+            "name": "dataVolumePerDay",
             "description": "",
             "valueType": "integer",
             "configurable": false,
@@ -126,35 +208,35 @@
             "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/ProductSpecificationCharacteristicValueUse.schema.json"
         },
         {
+            "id": "Char-15",
             "name": "freeIP",
-                "id": "Char-15",
-                "description": "",
-                "valueType": "string",
-                "configurable": false,
-                "validFor": {
-                    "startDateTime": "2017-08-12T00:00:00.000Z",
-                    "endDateTime": "2021-03-07T00:00:00.000Z"
-                },
-                "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
-                "minCardinality": 0,
-                "maxCardinality": 1,
-                "isUnique": true,
-                "regex": "",
-                "extensible": false,
-                "characteristicValueSpecification": [
-                    {
-                        "valueType": "String",
-                        "value": "My TV Mobile",
-                        "isDefault": true,
-                        "validFor": {
-                            "startDateTime": "00:00:00Z",
-                            "endDateTime": "23:59:59Z"
-                        },
-                        "@type": "StringCharacteristicValueSpecification",
-                        "@baseType": "",
-                        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
-                    }
-                ],
+            "description": "",
+            "valueType": "string",
+            "configurable": false,
+            "validFor": {
+                "startDateTime": "2017-08-12T00:00:00.000Z",
+                "endDateTime": "2021-03-07T00:00:00.000Z"
+            },
+            "@valueSchemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/StringCharacteristic.schema.json",
+            "minCardinality": 0,
+            "maxCardinality": 1,
+            "isUnique": true,
+            "regex": "",
+            "extensible": false,
+            "characteristicValueSpecification": [
+                {
+                    "valueType": "String",
+                    "value": "My TV Mobile",
+                    "isDefault": true,
+                    "validFor": {
+                        "startDateTime": "00:00:00Z",
+                        "endDateTime": "23:59:59Z"
+                    },
+                    "@type": "StringCharacteristicValueSpecification",
+                    "@baseType": "",
+                    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/CharacteristicValueSpecification.schema.json"
+                }
+            ],
             "charSpecRelationship": [],
             "productSpecification": {
                 "id": "PS-1",
