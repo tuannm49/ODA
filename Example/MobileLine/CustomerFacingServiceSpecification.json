@@ -1,6 +1,6 @@
 [
     {
-        "id": "CFS-1",
+        "id": "CFSS-1",
         "name": "Mobile Basic Plan",
         "description": "",
         "version": "2.1",
@@ -1136,10 +1136,10 @@
         "relatedParty": [],
         "serviceSpecRelationship": [
             {
-                "relationshipType": "dependency",
-                "role": "dependent",
                 "id": "RFS-1",
                 "name": "4G Mobile Line",
+                "relationshipType": "dependency",
+                "role": "dependent",
                 "validFor": {
                     "startDateTime": "2017-08-25T00:00:00.000Z",
                     "endDateTime": "2021-03-25T00:00:00.000Z"
@@ -1150,10 +1150,10 @@
                 "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/ServiceSpecRelationship.schema.json"
             },
             {
-                "relationshipType": "dependency",
-                "role": "dependent",
                 "id": "RFS-2",
                 "name": "5G Mobile Line",
+                "relationshipType": "dependency",
+                "role": "dependent",
                 "validFor": {
                     "startDateTime": "2017-08-25T00:00:00.000Z",
                     "endDateTime": "2021-03-25T00:00:00.000Z"
@@ -1188,7 +1188,7 @@
         "@baseType": "ServiceSpecification"
     },
     {
-        "id": "CFS-2",
+        "id": "CFSS-2",
         "name": "Voice Mail",
         "description": "",
         "version": "2.1",
@@ -1230,7 +1230,7 @@
         "@baseType": "ServiceSpecification"
     },
     {
-        "id": "CFS-3",
+        "id": "CFSS-3",
         "name": "VAS",
         "description": "",
         "version": "2.1",

@@ -1,6 +1,6 @@
 [
     {
-        "id": "RFS-1",
+        "id": "RFSS-1",
         "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceSpecification/7655",
         "name": "4G Mobile Line",
         "description": "This service specification describes a firewall service that can be deployed in customer-premises equipment.",
@@ -47,7 +47,7 @@
         "@baseType": "ServiceSpecification"
     },
     {
-        "id": "RFS-2",
+        "id": "RFSS-2",
         "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceSpecification/7655",
         "name": "5G Mobile Line",
         "description": "This service specification describes a firewall service that can be deployed in customer-premises equipment.",
@@ -85,7 +85,7 @@
         "@baseType": "ServiceSpecification"
     },
     {
-        "id": "RFS-3",
+        "id": "RFSS-3",
         "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceSpecification/7655",
         "name": "Mobile Unified Package",
         "description": "This service specification describes a firewall service that can be deployed in customer-premises equipment.",
@@ -133,7 +133,7 @@
         "@baseType": "ServiceSpecification"
     },
     {
-        "id": "RFS-4",
+        "id": "RFSS-4",
         "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceSpecification/7655",
         "name": "VoiceMail",
         "description": "This service specification describes a firewall service that can be deployed in customer-premises equipment.",
@@ -171,7 +171,7 @@
         "@baseType": "ServiceSpecification"
     },
     {
-        "id": "RFS-5",
+        "id": "RFSS-5",
         "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceSpecification/7655",
         "name": "VAS",
         "description": "This service specification describes a firewall service that can be deployed in customer-premises equipment.",
@@ -218,7 +218,7 @@
         "@baseType": "ServiceSpecification"
     },
     {
-        "id": "RFS-6",
+        "id": "RFSS-6",
         "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceSpecification/7655",
         "name": "eSIM",
         "description": "This service specification describes a firewall service that can be deployed in customer-premises equipment.",

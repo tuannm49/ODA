@@ -1,0 +1,93 @@
+{
+    "id": "5351",
+    "href": "https://mycsp.com:8080/tmf-api/serviceInventory/v5/service/5351",
+    "serviceType": "Cloud",
+    "name": "vCPE serial 1355615",
+    "description": "Instantiation of vCPE",
+    "state": "active",
+    "category": "CFS",
+    "isServiceEnabled": true,
+    "hasStarted": true,
+    "startMode": "1",
+    "isStateful": true,
+    "serviceDate": "2018-01-15T12:26:11.747Z",
+    "startDate": "2018-01-15T12:26:11.747Z",
+    "serviceSpecification": {
+        "id": "1212",
+        "href": "https://mycsp.com:8080/tmfapi/serviceCatalogManagement/v5/serviceSpecification/1212",
+        "name": "vCPE",
+        "version": "1.0.0",
+        "@type": "ServiceSpecificationRef",
+        "@referredType": "ServiceSpecification"
+    },
+    "feature": [],
+    "serviceCharacteristic": [
+        {
+            "id": "452-gh6",
+            "name": "vCPE",
+            "valueType": "object",
+            "value": {
+                "@type": "VCPE",
+                "@schemaLocation": "http://host:port/schema/VCPE.schema.json",
+                "vCPE_IP": "193.218.236.21",
+                "MaxTxRate": 300,
+                "TransmitPower": "11 dBm",
+                "maxTream": "OFF"
+            },
+            "@type": "ObjectCharacteristic"
+        }
+    ],
+    "serviceRelationship": [
+        {
+            "relationshipType": "DependentOn",
+            "service": {
+                "href": "https://mycsp.com:8080/tmf-api/serviceInventory/v5/service/5645",
+                "id": "5645",
+                "@type": "ServiceRef",
+                "@referredType": "Service"
+            },
+            "ServiceRelationshipCharacteristic": [
+                {
+                    "id": "126",
+                    "name": "CrossRef",
+                    "value": "44-11-h",
+                    "valueType": "string",
+                    "@type": "StringCharacteristic"
+                }
+            ],
+            "@type": "ServiceRelationship"
+        }
+    ],
+    "supportingService": [],
+    "supportingResource": [{
+        "id": "6161",
+        "href": "https://mycsp.com:8080/tmfapi/resourceInventoryManagement/v5/resource/5351",
+        "name": "GenInfra",
+        "@type": "ResourceRef",
+        "@referredType": "VirtualResource"
+        }],
+    "relatedParty": [],
+    "serviceOrderItem": [
+        {
+            "serviceOrderHref": "https://mycsp.com:8080/tmfapi/serviceOrdering/v5/serviceOrder/42",
+            "serviceOrderId": "42",
+            "role": "initiator",
+            "@referredType": "ServiceOrderItem",
+            "@type": "RelatedServiceOrderItem",
+            "itemId": "1",
+            "itemAction": "add"
+        },
+        {
+            "serviceOrderHref": "https://mycsp.com:8080/tmfapi/serviceOrdering/v5/serviceOrder/896",
+            "serviceOrderId": "896",
+            "role": "activator",
+            "@referredType": "ServiceOrderItem",
+            "@type": "RelatedServiceOrderItem",
+            "itemId": "4",
+            "itemAction": "modify"
+        }
+    ],
+    "place": [],
+    "note": [],
+    "@type": "Service"
+}
