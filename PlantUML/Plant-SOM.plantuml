@@ -1,0 +1,56 @@
+@startyaml
+!theme plain
+1. SOM - Quản lý yêu cầu dịch vụ:
+    1.1 Phân rã yêu cầu tài nguyên di động
+    1.2 Phân rã yêu cầu tài nguyên BRCD
+    1.3 Phân rã yêu cầu tài nguyên CNTT
+
+Prospect to Order (P2O):
+    - Feasibility check
+    - Location basse check
+    - Design, Assign & Reserve
+Order to Activate (O2A):
+    - Create new service
+    - Monitor long running service creation process
+    - Modify inflight service creation
+    - Cancel inflight service creation
+    - Modify existing service
+    - Suspend service / restore service
+    - Remove service
+    - Check feasibility of a service
+    - Design and Assign a service and reserve resources
+    - Create an inactive service
+    - Activate an inactive service
+    - Search service
+    - Retrieve service details
+    - Create new service order
+    - Amend existing service order
+    - Search service order(s)
+    - Retrieve service order
+Usage to Cash (U2C):
+    - Retrieval of Usage per customer/on request for a Service
+    - Periodic Service Usage Record for a Service
+    - Threshold Notification for a Service
+Trouble to Resolution (T2R):
+    - Obtain existing Service Problem details
+    - Create Service Problem
+    - Modify / Update Service problem
+    - Delete service problem that is no longer valid and was raised by consumer system earlier
+    - Operational domain requesting additional information about ticket
+    - Validate and Test service for reported problems by creating service test
+    - Fetch Service test result on completion
+    - Modify service test parameters
+    - Creation of ticket proactively by domain
+    - Identification of a notifiable SLA violation
+    - Identification of service affecting performance issue
+    - Identification of a notifiable service degradation or any major outage
+    - Resolution or restoration of service
+Service Catalog (Design Time):
+    - Retrieve Service Definitions (design and run time)
+    - Create Service Definitions
+    - Update Service Definitions
+    - Discover Services
+    - Advertise Services
+    - Deliver Services
+    - Service Definition Change Notification
+@endyaml

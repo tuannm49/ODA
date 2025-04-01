@@ -1,59 +1,56 @@
 @startyaml
 !theme plain
-
-Quản lý cấu hình Form động:
-    - Search Filter
-    - Modal Table Form
-    - Table properties Form
-    - Rule Form
-Quản lý thuộc tính ObjectType:
-    - Quản lý cấu hình Characteristic
-    - Quản lý PickList
-Quản lý TMF OpenAPI:
-    - Xây dựng OpenAPI theo chuẩn TMF 630
-    - API Validation
-    - API Author
-    - API Event
-    - API Invoker
-Quản lý Simulator:
-    - API Giả lập dữ liệu trả về theo kịch bản
-    - Giả lập dữ liệu trả về thông qua event ( Kafka)
-Devops:
-    - Đào tạo, Tuyển dụng
-Tích hợp Service Activation:
+9. LOC-Quản lý vị trí:
+    - Quản lý địa chỉ
+    - Quản lý địa bàn
+    - Quản lý vị trí
+13. PRM-Quản lý cấu hình Policy Rule:
+    - Quản lý PolicyRule
+    - Quản lý PolicyAction
+    - Quản lý PolicyCondition
+    - Quản lý PolicyVariable
+11. ECM-Quản lý danh mục dùng chung:
+    - 
+CORE-Component hệ thống
+    1. Quản lý cấu hình Form động:
+        - Search Filter (100%)
+        - Modal Table Form (100%)
+        - Table properties Form (100%)
+        - Product Design:
+            - Danh mục nhóm thuộc tính
+            - Danh mục chỉ tiêu
+            - Danh mục tham số
+    2. Quản lý thuộc tính ObjectType:
+        - Quản lý cấu hình Characteristic (100%)
+        - Quản lý PickList (100%)
+        - Sửa theo cấu trúc form động 
+    3. Quản lý Simulator:
+        - API Giả lập dữ liệu trả về theo kịch bản (100%)
+        - Giả lập dữ liệu trả về thông qua event ( Kafka) (100%)
+        - Giả lập api hỗ trợ giao thức Http soap(XML) (100%)
+        - Xây dựng giao diện cập nhật dữ liệu giả định
+    4. Quản lý TMF OpenAPI:
+        - Xây dựng OpenAPI theo chuẩn TMF 630 (80%)
+        - API Validation (100%)
+        - API Author(100%)
+        - API Event(100%)
+        - API Invoker(100%)
+    6. Tích hợp Service Activation:
     - Tích hợp BNM
     - Tích hợp SPI
     - Xây dựng invoker
-Capture Data Change(CDC):
-    - Xây dựng data Model
-    - Xây dựng CDC
-    - Xây dựng CDC Event
-MicroFrontend:
-    - Xây dựng Framework MicroFrontend
-    - Share component
-    - Share state
-    - Share service
-    - Share style
-    - Share route
-    - Share layout
-Quản lý location:
-    - Search location
-    - Create location
-    - Update location
-    - Delete location
-SOM - Quản lý yêu cầu dịch vụ:
-    - Phân rã yêu cầu tài nguyên di động
-    - Phân rã yêu cầu tài nguyên BRCD
-    - Phân rã yêu cầu tài nguyên khác
-ROM - Quản lý yêu cầu tài nguyên:
-    - Kích hoạt yêu cầu tài nguyên di động
-    - Kích hoạt yêu cầu tài nguyên BRCD
-    - Kích hoạt yêu cầu tài nguyên khác
-Triển khai Lowcode:
-    - Xin cấp hạ tầng
-    - Dựng hệ thống
-    - Thử nghiệm
-    - Tích hợp với ODA
-Triển khai ODA Canvas :
-    - 
+    7. Capture Data Change(CDC):
+        - Xây dựng data Model
+        - Xây dựng CDC
+        - Xây dựng CDC Event
+    12. Quy trình động (n8n workflow automation):
+    - Kết nối ứng dụng (App Integration)
+    - Tự động hóa quy trình (Workflow Automation)
+    - Custom Code
+    - Kích hoạt và lập lịch (Triggers & Scheduling)
+    8. MicroFrontend:
+        - Xây dựng Framework MicroFrontend
+5. Devops:
+    - Triển khai servie lên hệ thống k8s (100%)
+    - Triển khai api gateway ( krakenD)
 @endyaml

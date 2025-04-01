@@ -1,59 +1,47 @@
-"@startyaml
+@startyaml
 !theme plain
-1. Quản lý cấu hình Form động:
-    - Search Filter
-    - Modal Table Form
-    - Table properties Form (80%)
-    - Product Design:
-        - Danh mục nhóm thuộc tính
-        - Danh mục chỉ tiêu
-        - Danh mục tham số
-2. Quản lý thuộc tính ObjectType:
-    - Quản lý cấu hình Characteristic
-    - Quản lý PickList
-3. Quản lý Simulator:
-    - API Giả lập dữ liệu trả về theo kịch bản
-    - Giả lập dữ liệu trả về thông qua event ( Kafka)
-    - Giả lập api hỗ trợ giao thức Http soap(XML)
-4. Quản lý TMF OpenAPI:
-    - Xây dựng OpenAPI theo chuẩn TMF 630 (80%)
-    - API Validation
-    - API Author
-    - API Event
-    - API Invoker
-5. Devops:
-    - Triển khai servie lên hệ thống k8s
-6. Tích hợp Service Activation:
-    - Tích hợp BNM
-    - Tích hợp SPI
-    - Xây dựng invoker
-7. Capture Data Change(CDC):
-    - Xây dựng data Model
-    - Xây dựng CDC
-    - Xây dựng CDC Event
-8. MicroFrontend:
-    - Xây dựng Framework MicroFrontend
-9. Quản lý location:
-    - 
-10. SOM - Quản lý yêu cầu dịch vụ:
-    - Phân rã yêu cầu tài nguyên di động
-    - Phân rã yêu cầu tài nguyên BRCD
-    - Phân rã yêu cầu tài nguyên khác
-11. ROM - Quản lý yêu cầu tài nguyên:
-    - Kích hoạt yêu cầu tài nguyên di động
-    - Kích hoạt yêu cầu tài nguyên BRCD
-    - Kích hoạt yêu cầu tài nguyên khác
-12. Quản lý thông tin địa bàn (Place):
-13. Quản lý danh mục dùng chung (List Of Value):
-14. Quy trình động (n8n workflow automation):
-    - Kết nối ứng dụng (App Integration)
-    - Tự động hóa quy trình (Workflow Automation)
-    - Custom Code
-    - Kích hoạt và lập lịch (Triggers & Scheduling)
-15. Quản lý cấu hình Policy Rule:
+1. LOC-Quản lý vị trí:
+    - Quản lý địa chỉ (100%)
+    - Quản lý địa bàn
+    - Quản lý vị trí
+2. PRM-Quản lý cấu hình Policy Rule:
     - Quản lý PolicyRule
     - Quản lý PolicyAction
     - Quản lý PolicyCondition
     - Quản lý PolicyVariable
-    - Quản lý PolicyEvent
-@endyaml"
+3. ECM-Quản lý danh mục dùng chung:
+4. CORE:
+    4.1.Quản lý cấu hình Form động:
+        - Search Filter (100%)
+        - Modal Form (100%)
+        - Properties Form (100%)
+        - Product Design
+    4.2.Quản lý thuộc tính:
+        - Quản lý cấu hình Characteristic (100%)
+        - Quản lý PickList (100%)
+        - Quản lý ObjectType (100%)
+    4.3. Quản lý Simulator:
+        - API Giả lập dữ liệu trả về theo kịch bản (100%)
+        - Giả lập dữ liệu trả về thông qua event ( Kafka) (100%)
+        - Giả lập api hỗ trợ giao thức Http soap(XML) (100%)
+    4.4. Quản lý TMF OpenAPI:
+        - API Validation (100%)
+        - API Author(100%)
+        - API Event(100%)
+        - API Invoker(100%)
+    4.5. Tích hợp Service Activation:
+        - Tích hợp BNM
+        - Tích hợp SPI
+    4.6. Capture Data Change(CDC):
+        - Xây dựng data Model(1%)
+        - Xây dựng CDC (100%)
+        - Xây dựng CDC Event (100%)
+    4.7. Quy trình động (n8n workflow automation):
+        - Kết nối ứng dụng (App Integration) (100%)
+        - Tự động hóa quy trình (Workflow Automation)
+        - Kích hoạt và lập lịch (Triggers & Scheduling)
+    4.8. MicroFrontend:
+5. Devops:
+    - Triển khai servie lên hệ thống k8s (100%)
+    - Triển khai api gateway ( krakenD)
+@endyaml

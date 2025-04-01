@@ -1,0 +1,59 @@
+@startyaml
+!theme plain
+Triển vọng, đặt hàng (P2O):
+    - Kiểm tra tính khả thi
+    - Kiểm tra vị trí cơ sở
+    - Thiết kế, Phân công & Dự trữ
+Đặt hàng, Kích hoạt (O2A):
+    - Tạo dịch vụ mới
+    - Theo dõi quá trình tạo dịch vụ chạy dài
+    - Sửa đổi quá trình tạo dịch vụ đang thực hiện
+    - Hủy quá trình tạo dịch vụ đang thực hiện
+    - Sửa đổi dịch vụ hiện có
+    - Tạm dừng dịch vụ / khôi phục dịch vụ
+    - Xóa dịch vụ
+    - Kiểm tra tính khả thi của một dịch vụ
+    - Thiết kế và Phân công dịch vụ và dự trữ tài nguyên
+    - Tạo một dịch vụ chưa kích hoạt
+    - Kích hoạt một dịch vụ chưa hoạt động
+    - Tìm kiếm dịch vụ
+    - Lấy chi tiết dịch vụ
+    - Tạo đơn hàng dịch vụ mới
+    - Sửa đổi đơn hàng dịch vụ hiện có
+    - Tìm kiếm đơn hàng dịch vụ
+    - Lấy thông tin đơn hàng dịch vụ
+Sử dụng, Thanh toán (U2C):
+    - Lấy thông tin sử dụng theo khách hàng/theo yêu cầu cho một dịch vụ
+    - Bản ghi sử dụng dịch vụ định kỳ cho một dịch vụ
+    - Thông báo ngưỡng cho một dịch vụ
+Khắc phục sự cố, Giải quyết sự cố (T2R):
+    - Lấy chi tiết vấn đề dịch vụ hiện có
+    - Tạo vấn đề dịch vụ
+    - Sửa đổi / Cập nhật vấn đề dịch vụ
+    - Xóa vấn đề dịch vụ không còn hợp lệ
+    - Lĩnh vực vận hành yêu cầu thêm thông tin về phiếu hỗ trợ
+    - Xác nhận và Kiểm tra dịch vụ
+    - Lấy kết quả kiểm tra dịch vụ sau khi hoàn thành
+    - Sửa đổi thông số kiểm tra dịch vụ
+    - Tạo phiếu hỗ trợ chủ động bởi lĩnh vực
+    - Xác định vi phạm SLA cần thông báo
+    - Xác định vấn đề ảnh hưởng đến hiệu suất dịch vụ
+    - Xác định sự suy giảm dịch vụ cần thông báo hoặc bất kỳ sự cố lớn nào
+    - Giải quyết hoặc khôi phục dịch vụ
+Danh mục Dịch vụ (Thiết kế):
+    - Danh sách Định nghĩa Dịch vụ (thiết kế và thời gian chạy)
+    - Tạo Định nghĩa Dịch vụ
+    - Cập nhật Định nghĩa Dịch vụ
+    - Khám phá Dịch vụ
+    - Quảng bá Dịch vụ
+    - Cung cấp Dịch vụ
+    - Thông báo Thay đổi Định nghĩa Dịch vụ
+Quản lý yêu cầu dịch vụ:
+    - Phân rã yêu cầu tài nguyên di động
+    - Phân rã yêu cầu tài nguyên BRCD
+    - Phân rã yêu cầu tài nguyên khác
+Quản lý yêu cầu tài nguyên:
+    - Kích hoạt yêu cầu tài nguyên di động
+    - Kích hoạt yêu cầu tài nguyên BRCD
+    - Kích hoạt yêu cầu tài nguyên khác
+@endyaml

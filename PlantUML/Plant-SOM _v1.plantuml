@@ -1,0 +1,26 @@
+@startyaml
+!theme plain
+1. SOM - Quản lý yêu cầu dịch vụ:
+    1.1 Phân rã yêu cầu tài nguyên di động:
+        - Phân rã yêu cầu dịch vụ thành các dịch vụ con
+        - Kiểm tra điều kiện kích hoạt dịch vụ
+        - Kích hoạt dịch vụ
+    1.2 Phân rã yêu cầu tài nguyên BRCD:
+        - Phân rã yêu cầu dịch vụ thành các dịch vụ con
+        - Kiểm tra điều kiện kích hoạt dịch vụ
+        - Kích hoạt dịch vụ
+    1.3 Phân rã yêu cầu tài nguyên CNTT:
+        - Phân rã yêu cầu dịch vụ thành các dịch vụ con
+        - Kiểm tra điều kiện kích hoạt dịch vụ
+        - Kích hoạt dịch vụ
+    1.4 Kích hoạt dịch vụ:
+        - Kích hoạt dịch vụ
+        - Giám sát dịch vụ
+        - Sửa đổi dịch vụ
+        - Xóa dịch vụ
+        - Tìm kiếm dịch vụ
+2. ROM - Quản lý yêu cầu tài nguyên:
+    2.1 Kích hoạt yêu cầu tài nguyên di động
+    2.2 Kích hoạt yêu cầu tài nguyên BRCD
+    2.3 Kích hoạt yêu cầu tài nguyên khác
+@endyaml
