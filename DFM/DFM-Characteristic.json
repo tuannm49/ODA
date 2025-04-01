@@ -1,0 +1,245 @@
+{
+    "id": "DFM-CHAR-1",
+    "title": "Characteristic",
+    "code": "DFM-CHAR-1",
+    "formType": "Property",
+    "status": "ACTIVE",
+    "pages": [
+        {
+            "name": "General",
+            "title": "Thông tin chung",
+            "icon": "pi pi-info-circle",
+            "pageType": "Property",
+            "attrName": "",
+            "attrType": "",
+            "groups": [
+                {
+                    "name": "General",
+                    "title": "Thông tin chung",
+                    "layoutType": "I",
+                    "properties": [
+                        {
+                            "attrName": "name",
+                            "characteristicId":"CHAR-1",
+                            "title": "Tên",
+                            "dataType": "STRING",
+                            "ctlType": "TEXTBOX",
+                            "validateRules": ["REQUIRED"]
+                        },
+                        {
+                            "attrName": "description",
+                            "characteristicId":"CHAR-2",
+                            "title": "Mô tả",
+                            "dataType": "STRING",
+                            "ctlType": "TẽXTAREA",
+                            "validateRules": ["REQUIRED"]
+                        },
+                        {
+                            "attrName": "valueType",
+                            "characteristicId":"CHAR-3",
+                            "title": "Kiểu giá trị",
+                            "dataType": "STRING",
+                            "ctlType": "TEXTBOX",
+                            "validateRules": ["REQUIRED"]
+                        },
+                        {
+                            "attrName": "configurable",
+                            "characteristicId":"CHAR-4",
+                            "title": "Sửa dổi",
+                            "dataType": "BOOLEAN",
+                            "ctlType": "CHECKBOX"
+                        },
+                        {
+                            "attrName": "validFor",
+                            "characteristicId":"CHAR-5",
+                            "title": "validFor",
+                            "dataType": "BOOLEAN",
+                            "ctlType": "TimePeriod"
+                        },
+                        {
+                            "attrName": "minCardinality",
+                            "characteristicId":"CHAR-6",
+                            "title": "Số lượng tối thiểu",
+                            "dataType": "INTEGER",
+                            "ctlType": "TEXTBOX"
+                        },
+                        {
+                            "attrName": "maxCardinality",
+                            "characteristicId":"CHAR-7",
+                            "title": "Số lượng tối đa",
+                            "dataType": "INTEGER",
+                            "ctlType": "TEXTBOX"
+                        },
+                        {
+                            "attrName": "isUnique",
+                            "characteristicId":"CHAR-8",
+                            "title": "Là duy nhất",
+                            "dataType": "BOOLEAN",
+                            "ctlType": "CHECKBOX"
+                        },
+                        {
+                            "attrName": "regex",
+                            "characteristicId":"CHAR-9",
+                            "title": "Biểu thức chính quy",
+                            "dataType": "STRING",
+                            "ctlType": "TEXTBOX"
+                        },
+                        {
+                            "attrName": "extensible",
+                            "characteristicId":"CHAR-10",
+                            "title": "có thể mở rộng",
+                            "dataType": "BOOLEAN",
+                            "ctlType": "TimePeriod"
+                        }
+                    ]
+                }
+                
+            ],
+            "actions": [
+                {
+                    "name": "save",
+                    "title": "Lưu",
+                    "icon": "pi pi-save",
+                    "actionType": "SAVE",
+                    "actionEvent": [
+                        {
+                            "name": "saveAPI",
+                            "eventType": "API",
+                            "uri": "/api/save/",
+                            "param": "object"
+                        },
+                        {
+                            "name": "saveEvent",
+                            "eventType": "EVENT",
+                            "eventName": "onSave",
+                            "param": "object"
+                        }
+                    ]
+                },
+                {
+                    "name": "cancel",
+                    "title": "Hủy",
+                    "icon": "pi pi-times",
+                    "actionType": "CANCEL",
+                    "actionEvent": [
+                        {
+                            "name": "cancelAPI",
+                            "eventType": "API",
+                            "uri": "/api/cancel/",
+                            "param": "object"
+                        },
+                        {
+                            "name": "cancelEvent",
+                            "eventType": "EVENT",
+                            "eventName": "onCancel",
+                            "param": "object"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Characteristic",
+            "title": "Đặc điểm kỹ thuật",
+            "icon": "pi pi-info-circle",
+            "pageType": "ARRAY",
+            "attrName": "characteristicValueSpecification",
+            "attrType": "ARRAY",
+            "listView": [
+                {
+                    "attrName": "value",
+                    "title": "Giá trị",
+                    "dataType": "NUMBER",
+                    "size": "20"
+                },
+                {
+                    "attrName": "valueType",
+                    "title": "Kiêu giá trị",
+                    "dataType": "STRING",
+                    "size": "50"
+                },
+                {
+                    "attrName": "isDefault",
+                    "title": "Mặc định",
+                    "dataType": "BOOLEAN",
+                    "size": "30"
+                }
+            ],
+            "actions": [
+                {
+                    "name": "select",
+                    "title": "Chọn",
+                    "icon": "pi pi-check",
+                    "actionType": "SELECT",
+                    "actionEvent": [
+                        {
+                            "name": "saveAPI",
+                            "eventType": "API",
+                            "uri": "/api/picklist/{id}/",
+                            "param": "object"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Searh",
+            "icon": "pi pi-list",
+            "pageType": "Search",
+            "attrName": "",
+            "attrType": "",
+            "filter": [
+                {
+                    "attrName": "name",
+                    "title": "Tìm kiếm",
+                    "oprType": "like",
+                    "dataType": "STRING",
+                    "ctlType": "TEXTBOX"
+                }
+            ],
+            "apiList": [
+                {
+                    "name": "searchAPI",
+                    "uri": "/api/search/",
+                    "param": "name"
+                },
+                {
+                    "name": "addAPI",
+                    "uri": "/api/add/",
+                    "param": "object"
+                },
+                {
+                    "name": "deleteAPI",
+                    "uri": "/api/delete/",
+                    "param": "id"
+                }
+            ],
+            "listView": [
+                {
+                    "attrName": "name",
+                    "title": "Tên",
+                    "dataType": "STRING",
+                    "size": "20"
+                },
+                {
+                    "attrName": "description",
+                    "title": "numberRelOfferLowerLimit",
+                    "dataType": "NUMBER",
+                    "size": "50"
+                },
+                {
+                    "attrName": "minCardinality",
+                    "title": "Sô lượng tối thiểu",
+                    "dataType": "NUMBER",
+                    "size": "30"
+                },
+                {
+                    "attrName": "maxCardinality",
+                    "title": "Sô lượng tối đa",
+                    "dataType": "NUMBER",
+                    "size": "30"
+                }
+            ]
+        }
+    ]
+}

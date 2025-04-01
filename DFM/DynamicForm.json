@@ -1,0 +1,172 @@
+{
+    "title": "BundleProductOffering",
+    "id": "BundleProductOffering",
+    "code": "BundleProductOffering",
+    "formType": "Property",
+    "status": "ACTIVE",
+    "pages": [
+        {
+            "name": "General",
+            "icon": "pi pi-info-circle",
+            "pageType": "Property",
+            "attrName": "",
+            "attrType": "",
+            "groups": [
+                {
+                    "name": "General",
+                    "layoutType": "I",
+                    "properties": [
+                        {
+                            "attName": "name",
+                            "title": "name",
+                            "dataType": "STRING",
+                            "ctlType": "TEXTBOX",
+                            "validateRules": ["REQUIRED"]
+                        },
+                        {
+                            "attName": "code",
+                            "title": "code",
+                            "dataType": "STRING",
+                            "ctlType": "TEXTBOX",
+                            "validateRules": ["REQUIRED"]
+                        },
+                        {
+                            "attName": "description",
+                            "title": "description",
+                            "dataType": "STRING",
+                            "ctlType": "TEXTAREA",
+                            "validateRules": ["REQUIRED"]
+                        },
+                        {
+                            "attName": "dataType",
+                            "title": "dataType",
+                            "dataType": "STRING",
+                            "ctlType": "SELECT-LIST",
+                            "items": [{ "label": "Danh sách", "value": "list" }]
+                        },
+                        {
+                            "attName": "status",
+                            "title": "status",
+                            "dataType": "STRING",
+                            "ctlType": "SELECT-LOV",
+                            "ctlUrl": "http://10.1.122.100:9093/api/productCatalogManagement/ListOfValue?code=status-list"
+                        }
+                    ]
+                },
+                {
+                    "name": "General 2",
+                    "layoutType": "I",
+                    "properties": [
+                        {
+                            "attName": "active",
+                            "title": "active",
+                            "dataType": "BOOL",
+                            "ctlType": "SWITCH-BOX"
+                        },
+                        {
+                            "attName": "validFor",
+                            "title": "validFor",
+                            "dataType": "DATERANGE",
+                            "ctlType": "DATE-RANGE"
+                        }
+                    ]
+                }
+            ],
+            "actions": [
+                {
+                    "name": "save",
+                    "title": "Lưu",
+                    "icon": "pi pi-save",
+                    "actionType": "SAVE",
+                    "actionEvent": [
+                        {
+                            "name": "saveAPI",
+                            "eventType": "API",
+                            "uri": "/api/save/",
+                            "param": "object"
+                        },
+                        {
+                            "name": "saveEvent",
+                            "eventType": "EVENT",
+                            "eventName": "onSave",
+                            "param": "object"
+                        }
+                    ]
+                },
+                {
+                    "name": "cancel",
+                    "title": "Hủy",
+                    "icon": "pi pi-times",
+                    "actionType": "CANCEL",
+                    "actionEvent": [
+                        {
+                            "name": "cancelAPI",
+                            "eventType": "API",
+                            "uri": "/api/cancel/",
+                            "param": "object"
+                        },
+                        {
+                            "name": "cancelEvent",
+                            "eventType": "EVENT",
+                            "eventName": "onCancel",
+                            "param": "object"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Searh",
+            "icon": "pi pi-list",
+            "pageType": "Search",
+            "attrName": "",
+            "attrType": "",
+            "filter": [
+                {
+                    "name": "name",
+                    "title": "Tìm kiếm",
+                    "oprType": "like",
+                    "dataType": "STRING",
+                    "ctlType": "TEXTBOX"
+                }
+            ],
+            "apiList": [
+                {
+                    "name": "searchAPI",
+                    "uri": "/api/search/",
+                    "param": "name"
+                },
+                {
+                    "name": "addAPI",
+                    "uri": "/api/add/",
+                    "param": "object"
+                },
+                {
+                    "name": "deleteAPI",
+                    "uri": "/api/delete/",
+                    "param": "id"
+                }
+            ],
+            "listView": [
+                {
+                    "name": "numberRelOfferDefault",
+                    "title": "numberRelOfferDefault",
+                    "dataType": "NUMBER",
+                    "size": "20"
+                },
+                {
+                    "name": "numberRelOfferLowerLimit",
+                    "title": "numberRelOfferLowerLimit",
+                    "dataType": "NUMBER",
+                    "size": "50"
+                },
+                {
+                    "name": "numberRelOfferUpperLimit",
+                    "title": "numberRelOfferUpperLimit",
+                    "dataType": "NUMBER",
+                    "size": "30"
+                }
+            ]
+        }
+    ]
+}
